@@ -1,0 +1,15 @@
+{
+    "flight_details": {
+        "baggage":"",
+        "checkin":"",
+        "cabin":""
+      },
+      "name":"",
+      "departure_time": "",
+      "arrival_time": "",
+      "duration":"",
+      "fare":"",
+      "stops": "",
+      "departure": "",
+      "arrival": ""
+}
