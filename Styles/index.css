@@ -526,7 +526,7 @@ li {
   font-weight: 600;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .explore {
@@ -559,20 +559,20 @@ li {
 .explore-card > div {
   display: flex;
   box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
-    border-bottom-right-radius: 20px;
-      border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
 }
 .explore-card > div > div {
   display: flex;
   width: 40%;
   align-items: center;
   justify-content: start;
-  padding: 10px;
+  padding: 12px;
   background-color: white;
-border-right: 0.60px solid #727070;
+  border-right: 0.6px solid #727070;
 }
-.explore-card > div > div:hover{
- background-color: #E3F2FD;
+.explore-card > div > div:hover {
+  background-color: #e3f2fd;
 }
 .explore-card > div > div > img {
   width: 15%;
@@ -583,13 +583,13 @@ border-right: 0.60px solid #727070;
   font-size: 14px;
 }
 .explore-card > div > div:nth-child(3) {
- width: 60%;
+  width: 60%;
 }
 .explore-card > div > div:nth-child(4) {
- width: 60%;
+  width: 60%;
 }
-.explore-card > div > div:nth-child(3)>img {
- width: 11%;
+.explore-card > div > div:nth-child(3) > img {
+  width: 11%;
 }
 .explore-card > div > div:nth-child(5) {
   border-bottom-right-radius: 20px;
@@ -600,3 +600,81 @@ border-right: 0.60px solid #727070;
   border-bottom-left-radius: 20px;
   border-top-left-radius: 20px;
 }
+
+/* slider */
+.offers-section {
+  display: flex;
+  width: 95%;
+  padding: 30px 0px 15px 0px;
+  margin: auto;
+}
+.offers {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.offers-section > h1 {
+  font-size: 38px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #302f2f;
+}
+
+.offers-category {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 30px;
+  border-bottom: 1px solid #b6b3b3;
+  line-height: 30px;
+}
+.offers-category > h4 {
+  padding-right: 17px;
+  font-size: 14px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: rgb(56, 56, 56);
+  font-weight: 800;
+}
+.offers-category > h4:nth-child(7) {
+  padding-right: 0px;
+}
+.slider-btn {
+  display: flex;
+  width: 25%;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 10px;
+}
+
+.slider-btn > p {
+  color: #1976d2;
+  font-size: 19px;
+  font-weight: 800;
+}
+.fa-right-long {
+  font-size: 10px;
+  margin: 6px 3px 6px 6px;
+  color: #1976d2;
+}
+.fa-chevron-left {
+  margin: 4px 0px 6px 6px;
+  padding: 7px;
+  width: 30px;
+  border-radius: 20px 0px 0px 20px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  cursor: pointer;
+}
+.fa-chevron-right {
+  margin: 4px 6px 6px 0px;
+  padding: 7px;
+  width: 30px;
+  border-radius: 0px 20px 20px 0px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  cursor: pointer;
+}
+
+
