@@ -1,0 +1,114 @@
+.body{
+    display: flex;
+    flex-direction: row;
+    margin-left: 11%;
+}
+.body>img:nth-child(1){
+    width: 36%;
+    border-radius: 12px;
+}
+.smallImageDiv{
+    margin-left: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 23%;
+}
+.smallImageDiv>img:nth-child(1){
+    width: 100%;
+    height: 49%;
+    border-radius: 12px;
+}
+.smallImageDiv>img:nth-child(2){
+    width: 100%;
+    height: 49%;
+    border-radius: 12px;
+}
+.detailsDiv{
+    width: 25%;
+    margin-left: 8PX;
+}
+.priceDetailDiv{
+    width: 97%;
+    height: 48%;
+    border: 2px solid rgb(165, 158, 158);
+    border-radius: 10px;
+    padding-left: 3%;
+    font-family: Lato;
+}
+.priceDetailDiv>p{
+    font-size: 12px;
+}
+#bookToCart{
+    margin-left: 5%;
+    border: none;
+    color: white;
+    font-family: Lato;
+    font-weight: bold;
+    font-size: 16px;
+    background: rgb(108,211,238);
+    background: linear-gradient(90deg, rgba(108,211,238,1) 7%, rgba(0,87,255,1) 97%);
+    border-radius: 20px;
+    padding: 2%;
+    cursor: pointer;
+}
+.viewRoomMapReview{
+    font-family: Lato;
+    font-weight: bolder;
+    color: #008cff;
+}
+.locationRatingDiv{
+    width: 100%;
+    height: 48%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 4%;
+}
+.locationRatingDiv>div{
+    width: 48%;
+    border: 2px solid rgb(165, 158, 158);
+    border-radius: 10px;
+    text-align: center;
+}
+.locationRatingDiv>div:nth-child(1)>img{
+    width: 100%;
+    height: 80%;
+    border-radius: 10px;
+}
+#nameHotelh1{
+    margin-left: 11%;
+    font-family: Lato;
+}
+#rating{
+    width: 60%;
+    height: 40%;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #065af3;
+    margin: auto;
+    margin-top: 14%;
+    font-size: 3rem;
+}
+.lowerNav{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    margin-top: 4%;
+    padding-top: 1%;
+}
+.lowerNavlinks{
+    width: 90%;
+    margin: auto;
+    
+}
+.lowerNavlinks>a{
+    padding-right: 2%;
+    padding-left: 4%;
+    font-family: Lato;
+    font-weight: bold ;
+    color: black;
+    text-decoration: none;
+}
