@@ -140,30 +140,3 @@ const items = {
 };
 
 append(items.options, items.heading, flight_container);
-
-
-
-
-
-// When the user scrolls the page, execute myFunction
-window.onscroll = function() {
-  myFunction()
-};
-
-// Get the header
-var searchbar = document.getElementById("searcbar");
-var randomStuff = document.getElementById("#maincontainer");
-
-
-// Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
-function myFunction() {
-  if (window.pageYOffset > 150) {
-  	searchbar.classList.add("sticky");
-  	randomStuff.classList.add("shiftDown");
-
-  } else {
-  	searchbar.classList.remove("sticky");
-  	randomStuff.classList.remove("shiftDown");
-  
-  }
-}

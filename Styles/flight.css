@@ -1,9 +1,64 @@
-
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+   }
+
+     /* Flight Section */
+
+.mid-navbar {
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   }
+  .siteLogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 70px;
+    margin-left: 50px;
+  }
+  .siteLogo img{
+    cursor: pointer;
+    width: 180px;
+    height: 50px;
+  }
+  .mid-nav-category {
+    background-color: white;
+    width: 100%;
+    border-radius: 7px;
+ 
+  }
+  .mid-nav-category ul {
+    display: flex;
+    text-align: center;
+  }
+  .mid-nav-category li {
+    text-decoration: none;
+    list-style: none;
+    line-height: 22px;
+    cursor: pointer;
+    margin-right: 15px;
+  }
+  .mid-nav-category li:hover{
+    color: #0288D1;
+  }
+  
+  .mid-nav-category div {
+    padding: 10px;
+  }
+  .mid-nav-category i {
+    font-size: 25px;
+    color: #2c2c2c;
+  }
+  .mid-nav-category i:hover {
+    color: #0288D1;
+  }
+  .mid-nav-category p {
+    font-size: 14px;
+  }
+
+  /* namrata */
+
  #main-container{
   background: rgb(232, 232, 232);
   background-repeat: no-repeat;
@@ -17,6 +72,8 @@
    height: 150px;
    margin: auto;
    padding-top: 1%;
+   position: absolute;
+    left: 1%;
  }
 #searchbar{
     width: 100%;
@@ -101,7 +158,7 @@
 
 }
 
-/*faretype*/
+/* /faretype/ */
 #fareTypeWrapper{
 
  height: 70px;
@@ -152,17 +209,12 @@
 
 
 
-/*filter*/
+/* /filter/ */
 .bodyContainer{
     margin:20px auto;
-  
-    width: 1200px;
+  width: 1200px;
     
 }
-
-
-
-
 .container {
     display: flex;
     flex-direction: row;
@@ -184,20 +236,14 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-
 }
-
 .filter-container>div {
     padding: 12px 15px;
     margin-top: 2%;
  }
- 
- 
- 
- 
- 
 
-/* <----I-----> */
+
+/* <----Info-----> */
 
 .aboutGoMyTrip{
 padding: 30px;
@@ -268,5 +314,5 @@ font-family: Arial, Helvetica, sans-serif;
     width: 30px;
     height: 30px;
     margin-right: 10px;
-    cursor: pointer
+    cursor: pointer;
 }
