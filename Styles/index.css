@@ -17,7 +17,7 @@
   margin: auto;
 }
 .fa-tag {
-  color: #5E35B1;
+  color: #5e35b1;
   font-size: 22px;
 }
 .fa-briefcase {
@@ -46,8 +46,9 @@
 }
 .category-card {
   width: 70%;
-  /* border: 2px solid white; */
   display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 .card-item {
   margin-left: 10px;
@@ -55,10 +56,7 @@
   align-items: center;
   justify-content: center;
 }
-/* .category-icon{
-    display: ;
-    align-items: center;
-} */
+
 .category-icon > i {
   margin-right: 10px;
 }
@@ -85,7 +83,7 @@
     rgba(61, 184, 209, 1) 29%,
     rgba(67, 138, 242, 1) 63%
   );
-padding: 14px;
+  padding: 14px;
   color: white;
   font-size: 11px;
   display: flex;
@@ -115,3 +113,216 @@ padding: 14px;
   border: none;
   cursor: pointer;
 }
+
+/* Login form */
+.btn-bg {
+  background-color: #e1f5fe;
+  display: flex;
+  border-radius: 17px 17px 0px 0px;
+}
+
+.fa-circle-xmark {
+  position: absolute;
+  font-size: 20px;
+  display: flex;
+  color: #444;
+  left: 93%;
+  top: 2%;
+  cursor: pointer;
+}
+
+.form_box {
+  width: 500px;
+  height: 540px;
+  position: absolute;
+  background: #ffff;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  top: 0%;
+  left: 50%;
+  /* transform: translate(-50%, -50%); */
+  transform: translate(-50%, -50%) scale(0.1);
+  visibility: hidden;
+  border-radius: 15px;
+}
+.btn-box {
+  width: 90%;
+  margin: 35px auto;
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.24) 1px 1px 8px;
+  padding: 8px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+}
+.toggle-btn {
+  padding: 8px 20px;
+  cursor: pointer;
+  position: relative;
+  cursor: pointer;
+  background: transparent;
+  outline: none;
+  border: none;
+  width: 49%;
+  font-size: 14px;
+  font-weight: 700;
+}
+.btn-box > button:nth-child(1) {
+  background: rgb(61, 184, 209);
+  background: linear-gradient(
+    90deg,
+    rgba(61, 184, 209, 1) 29%,
+    rgba(67, 138, 242, 1) 63%
+  );
+  border-radius: 20px;
+  color: white;
+}
+.btn-box > button:nth-child(2) {
+  background: rgb(255, 137, 53);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 137, 53, 1) 6%,
+    rgba(217, 97, 152, 1) 100%
+  );
+  border-radius: 20px;
+  color: white;
+}
+.register-container {
+  width: 90%;
+  /* border: 2px solid black; */
+  margin: auto;
+}
+
+.register-form {
+  display: flex;
+  /* border: 2px solid red; */
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0px 20px 0px;
+  /* padding: 10px; */
+  line-height: 30px;
+}
+.register-input {
+  width: 80%;
+  /* border: 1px solid green; */
+}
+
+.register-input > input {
+  display: block;
+  padding: 10px;
+  border: 1px solid #e57373;
+  width: 98%;
+  border-radius: 5px;
+}
+.submit-btn {
+  width: 40%;
+  /* border: 2px solid red; */
+}
+.submit-btn > p {
+  text-align: end;
+  color: #ff7043;
+}
+.submit-btn > button {
+  width: 100%;
+  padding: 10px;
+  background: rgb(158, 60, 151);
+  background: linear-gradient(
+    90deg,
+    rgba(158, 60, 151, 1) 0%,
+    rgba(233, 88, 30, 1) 100%
+  );
+  border: none;
+  color: white;
+  font-weight: 800;
+  font-size: 14px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  border-radius: 8px;
+}
+.register-container {
+  position: absolute;
+  top: 25%;
+  left: 500px;
+}
+.register-bottom {
+  text-align: center;
+  padding: 10px;
+  line-height: 30px;
+}
+.register-bottom img {
+  width: 20px;
+}
+.register-bottom > p:nth-child(1) {
+  font-size: 12px;
+  font-weight: 700;
+  color: #444;
+}
+.register-bottom-text {
+  font-size: 13px;
+}
+.register-bottom-text span {
+  color: red;
+}
+.register-text {
+  color: #444;
+}
+
+.login-bottom img {
+  width: 20px;
+}
+.login-input input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+}
+.login-container {
+  position: absolute;
+  width: 90%;
+  left: 28px;
+  margin: auto;
+}
+.login-input {
+  /* border: 2px solid black; */
+  margin-top: 40px;
+  line-height: 30px;
+}
+.login-input button {
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+  width: 100%;
+  font-size: 15px;
+  font-weight: 800;
+  padding: 6px;
+  border-radius: 0;
+}
+.login-bottom {
+  text-align: center;
+  margin-top: 40px;
+  line-height: 40px;
+}
+.login-bottom img {
+  margin-top: 10px;
+}
+
+.login_tc {
+  margin-top: 100px;
+  font-size: 12px;
+  width: 100%;
+  font-weight: bold;
+}
+.login_tc span {
+  color: #29b6f6;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+.form_box {
+  overflow: hidden;
+}
+
+/* Flight Section */
+
+
