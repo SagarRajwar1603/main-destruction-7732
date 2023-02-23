@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Styles/flight.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+   
+    <title>Flight</title>
+   
+</head>
+<body>
+    <div id="main-container">
+    <div id="cont">
+     <div id="searchbar">
+         <div id="searchwidget">
+             <div class="triptype">
+                 <label for="tripType" class="lbl_input">TRIP TYPE</label>
+                 <select id="multidropdown">
+                     <option value="oneway">One Way</option>
+                     <option value="roundtrip">Round Trip</option>
+                     <option value="multicity">Multi City</option>
+                 </select>
+             </div>
+             <div class="innerbox">
+                <label for="fromCity" class="lbl_input">FROM</label>
+                <input id="fromCity" class="inputField" type="text" value="New Delhi,India"></input>
+            </div>
+            <div class="swaplogo">
+                <span><i class="fa-solid fa-right-left"></i></span>
+            </div>
+           
+            <div class="innerbox">
+                <label for="toCity" class="lbl_input">TO</label>
+                <input id="toCity" class="inputField" type="text" value="Bengaluru,India"></input>
+               </div>
+               <div class="innerbox">
+                <label for="departure" class="lbl_input">DEPART</label>
+                <input id="departure" class="inputField" type="text"  value="Wed,Feb 27,2023"></input>
+               </div>
+               <div class="innerbox">
+                <label for="return" class="lbl_input">RETURN</label>
+                <input id="return" class="inputField" type="text" placeholder="Select Return"></input>  
+               </div>
+               <div class="innerbox">
+                <label for="travellerandclass" class="lbl_input">Passenger and Class</label>
+                <input id="travellerandclass" class="inputField" type="text" value="1 Adult,Economy"></input>
+               </div>
+               <button id="submit" type="button">SEARCH</button>
+             
+         </div>
+         <div id="fareTypeWrapper">
+            <div class="farecategory">
+                <span>Fare Type:</span>
+            
+             <ul class="fareTypeOptions">
+              <li>
+                  <input type="radio">
+                  <p>Regular</p>
+              </li>
+              <li>
+                  <input type="radio">
+                  <p>Armed Forces</p>
+              </li>
+              <li>
+                  <input type="radio">
+                  <p>Student</p>
+              </li>
+              <li>
+                  <input type="radio">
+                  <p>Senior Citizen</p>
+              </li>
+              <li>
+                  <input type="radio">
+                  <p>Doctor & Nurses</p>
+              </li>
+              <li>
+                  <input type="radio">
+                  <p>Double Seat </p>
+              </li>
+             </ul>
+              </div>
+         </div>
+     </div>
+    </div> 
+</div> 
+           
+    <div class="bodyContainer">
+       
+        <div class="container">
+                 
+            <div class="left">
+                <div class="filter-container"></div>
+            </div>
+            <div class="right">
+                  Flight Body
+            </div>
+        </div>
+    </div>
+        
+    
+</body>
+</html>
+<script type="module" src="../Scripts/flight.js"></script>
