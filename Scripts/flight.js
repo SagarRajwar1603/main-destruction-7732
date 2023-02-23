@@ -1,4 +1,4 @@
-import { append } from "./showdata.js"
+import { append } from "./showdata.js";
 
 let flight_container = document.querySelector(".filter-container");
 
