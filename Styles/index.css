@@ -330,6 +330,7 @@ body {
 /* Flight Section */
 
 .mid-navbar {
+  width: 100%;
   margin-top: 40px;
 }
 .mid-nav-category {
@@ -676,5 +677,143 @@ li {
     rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
   cursor: pointer;
 }
+
+.product {
+  width: 100%;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+
+swiper-container {
+  width: 80%;
+  height: 100px;
+}
+
+swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+swiper-slide img {
+  display: block;
+  width: 50%;
+  /* object-fit: cover; */
+}
+
+swiper-container {
+  width: 100%;
+  height: 300px;
+  margin: 20px auto;
+}
+
+
+
+.small-slider-container img{
+width: 80px;
+margin-left: 10px;
+margin-right: 10px;
+}
+
+.swip-slider{
+ height: 100px;
+ text-align: start;
+ font-size: 14px;
+}
+.mySwiper{
+  height: 100px;
+  padding: 10px;
+}
+   
+.hand{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.handpick{
+  width: 20%;
+}
+.hand-btn{
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+
+
+/* handpic slider */
+.productHeader{
+width: 87%;
+ margin: auto;
+ color: #708AA5;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ font-size: 15px;
+ margin-top: 50px;
+ margin-bottom: 17px;
+}
+.product {
+    width: 100%;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+    margin-top: 30px;
+    }
+  .product-container {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    box-sizing: border-box;
+    margin: auto;
+  }
+  .product-container::-webkit-scrollbar {
+    display: none;
+  }
+  .product-card{
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+    margin-right: 20px;
+    border-radius: 10px;
+   }
+   .product-card img{
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+   }
+
+   .download{
+    width: 100%;
+  display: flex;
+   align-items: center;
+   }
+ 
+   .download div{
+    border: 2px solid red;
+   
+   }
+   .download div:nth-child(2){
+    width: 20%;
+    display: flex;
+   }
+   .download div:nth-child(2)>img{
+    width: 60%;
+
+   }
+   .download div:nth-child(3){
+    width: 20%
+   }
+   .download div:nth-child(3)>img{
+    width: 40%;
+    margin-top: 20px;
+   text-align: center;
+    
+   }
 
 
