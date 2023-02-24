@@ -1,318 +1,275 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-   }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-     /* Flight Section */
+/* Flight Section */
 
 .mid-navbar {
-    display: flex;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  }
-  .siteLogo{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 70px;
-    margin-left: 50px;
-  }
-  .siteLogo img{
-    cursor: pointer;
-    width: 180px;
-    height: 50px;
-  }
-  .mid-nav-category {
-    background-color: white;
-    width: 100%;
-    border-radius: 7px;
- 
-  }
-  .mid-nav-category ul {
-    display: flex;
-    text-align: center;
-  }
-  .mid-nav-category li {
-    text-decoration: none;
-    list-style: none;
-    line-height: 22px;
-    cursor: pointer;
-    margin-right: 15px;
-  }
-  .mid-nav-category li:hover{
-    color: #0288D1;
-  }
-  
-  .mid-nav-category div {
-    padding: 10px;
-  }
-  .mid-nav-category i {
-    font-size: 25px;
-    color: #2c2c2c;
-  }
-  .mid-nav-category i:hover {
-    color: #0288D1;
-  }
-  .mid-nav-category p {
-    font-size: 14px;
-  }
+  display: flex;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.siteLogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 70px;
+  margin-left: 50px;
+}
+.siteLogo img {
+  cursor: pointer;
+  width: 180px;
+  height: 50px;
+}
+.mid-nav-category {
+  background-color: white;
+  width: 100%;
+  border-radius: 7px;
+}
+.mid-nav-category ul {
+  display: flex;
+  text-align: center;
+}
+.mid-nav-category li {
+  text-decoration: none;
+  list-style: none;
+  line-height: 22px;
+  cursor: pointer;
+  margin-right: 15px;
+}
+.mid-nav-category li:hover {
+  color: #0288d1;
+}
 
-  /* namrata */
+.mid-nav-category div {
+  padding: 10px;
+}
+.mid-nav-category i {
+  font-size: 25px;
+  color: #2c2c2c;
+}
+.mid-nav-category i:hover {
+  color: #0288d1;
+}
+.mid-nav-category p {
+  font-size: 14px;
+}
 
- #main-container{
+/* namrata */
+
+#main-container {
   background: rgb(232, 232, 232);
   background-repeat: no-repeat;
   background-image: linear-gradient(to bottom, #051322, #15457c);
   background-size: 100% 600px;
   height: 300px;
- }
-
- #cont{
-   width:85%;
-   height: 150px;
-   margin: auto;
-   padding-top: 1%;
-   position: absolute;
-    left: 1%;
- }
-#searchbar{
-    width: 100%;
-    margin: auto;
-    display:grid;
-    grid-template-columns: repeat(1,1fr) ;
-    grid-template-rows: repeat(2,70px);
-    justify-content: space-between;
-    
-    
-  }
- 
-#searchwidget{
-  height: 70px;
- display: flex;
- gap: 20px;
-
+  position: relative;
 }
-.triptype{
-  background-color: rgba(255,255,255,0.1);
+
+#cont {
+  width: 100%;
+  height: 150px;
+  margin: auto;
+  padding-top: 1%;
+  /* position: absolute;
+    left: 1%; */
+}
+#searchbar {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+#searchwidget {
+  height: 70px;
+  display: flex;
+  box-sizing: border-box;
+  padding: 11px 0;
+}
+.triptype {
+  background-color: rgba(255, 255, 255, 0.1);
   border-radius: 4px;
   margin-right: 5px;
-  position: relative;
+  /* position: relative; */
   width: 125px;
   min-height: 46px;
   flex-direction: column;
-  display:flex;
+  display: flex;
 }
 
-
-.lbl_input{
-  background-color: rgba(255,255,255,0.1);
+.lbl_input {
+  background-color: rgba(255, 255, 255, 0.1);
   text-transform: uppercase;
-  padding: 4px,9px,0;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 14px;
-  color:#008cff;
+  padding: 4px, 9px, 0;
+  font-weight: 500;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 12px;
+  /* line-height: 14px; */
+  color: #008cff;
   margin-bottom: 5px;
   display: block;
-  
- 
 }
-.innerbox{
-  background-color: rgba(255,255,255,0.1);
- border-radius: 4px;
+#multidropdown{
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  border: none;
+}
+.innerbox {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
   margin-right: 5px;
-  position: relative;
   width: 160px;
   min-height: 30px;
- flex-direction: column;
+  flex-direction: column;
   display: flex;
-  
-  
 }
 
-.inputField{
-  background-color: rgba(255,255,255,0.1);
+.inputField {
+  background-color: rgba(255, 255, 255, 0.1);
   color: #fff;
   min-width: 140px;
   min-height: 30px;
   padding: 4px 9px;
   font-size: 15px;
+  border: none;
+  outline: none;
+}
+.fa-right-left {
+  color: white;
   
 }
-.fa-right-left{
-  color:white;
-}
 
-#submit{
-  background-color: #c2c2c2;
+
+#submit {
+  background: rgb(61, 184, 209);
+  background: linear-gradient(
+    90deg,
+    rgba(61, 184, 209, 1) 29%,
+    rgba(67, 138, 242, 1) 63%
+  );
   width: 176px;
   height: 40px;
   text-align: center;
   flex-direction: row;
   border-radius: 24px;
   margin-left: 30px;
- border-bottom-color: rgb(0,0,0);
- color: #fff;
- font-weight: 700;
- font-size: 15px;
-
+ border:none;
+  color: #fff;
+  font-weight: 700;
+  font-size: 15px;
 }
 
 /* /faretype/ */
-#fareTypeWrapper{
-
- height: 70px;
+#fareTypeWrapper {
+  height: 70px;
 }
-.farecategory{
+.farecategory {
   display: flex;
 }
-.farecategory input{
+.farecategory input {
   margin-right: 10px;
 }
-.farecategory .fareTypeOptions{
-  color:rgba(0,0,0,0.85);
-     display:block;
-     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-     font-size: 14px;
-     font-weight: 400;
-     line-height: 21px;
-     list-style-position: outside;
+.farecategory .fareTypeOptions {
+  color: rgba(0, 0, 0, 0.85);
+  display: block;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  list-style-position: outside;
 }
-.farecategory li{
-      position: relative;
-    padding: 8px 12px;
-    cursor: pointer;
-    font-size: 12px;
-    font-weight: 400;
-    color: #fff;
-   background: #364c63;
-   margin-left: 1px;
-    display:inline-flex;
-    align-items: center;
-    height: 45px;
-    min-width: 80px;
-    max-width: 134px;
-    line-height: 14px !important;
+.farecategory li {
+  position: relative;
+  padding: 8px 12px;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 400;
+  color: #fff;
+  background: #364c63;
+  margin-left: 1px;
+  display: inline-flex;
+  align-items: center;
+  height: 45px;
+  min-width: 80px;
+  max-width: 134px;
+  line-height: 14px !important;
 }
-.farecategory span{
-    font-size: 15px;
-    font-weight: 500;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-right: 10px;
-    color:rgb(155,155,155);
-    line-height: 10px;
+.farecategory span {
+  font-size: 15px;
+  font-weight: 500;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  color: rgb(155, 155, 155);
+  line-height: 10px;
 }
-
-
-
 
 /* /filter/ */
-.bodyContainer{
-    margin:20px auto;
-  width: 1200px;
-    
+.bodyContainer {
+  width: 100%;
+  position: absolute;
+  top: 250px;
+  
+  height: fit-content;
 }
 .container {
-    display: flex;
-    flex-direction: row;
-    gap: 18px;
-    justify-content: space-between;
-    max-width: 1200px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  color: antiquewhite;
+  gap: 10px;
+  justify-content: space-around;
+  margin: 0 auto;
 }
 
 .left {
-    box-shadow: 0 3px 30px 0 rgb(0 0 0 / 10%);
-    width: 295px;
+  box-shadow: 0 3px 30px 0 rgb(0 0 0 / 10%);
+  width: 295px;
+  background-color: #fff;
 }
 
 .right {
-    width: 880px;
+  width:885px;
+  
 }
 
 .filter-container {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+ /* height: 700px;*/
 }
-.filter-container>div {
-    padding: 12px 15px;
-    margin-top: 2%;
- }
-
-
-/* <----Info-----> */
-
-.aboutGoMyTrip{
-padding: 30px;
-font-family: Arial, Helvetica, sans-serif;
-
+.filter-container > .popular {
+  padding: 12px 15px;
+  margin-bottom: 5px;
+  color:#000000;
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+  gap:3px;
+  
 }
-.aboutGoMyTrip p{
-    color: #4A4A4A;
-    font-size: 13px;
-    margin-bottom: 20px;
-}
-.aboutGoMyTrip h6{
-    color: #000000;
-    margin-bottom: 10px;
-    cursor: pointer;
-}
-
-.infofooter{
-    background-color: #E7E7E7;
-    display: flex;
-    justify-content: space-around;
-}
-.infofooter div{
-    width: 30%;
-    padding: 30px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
-    color: #4A4A4A;
-}
-.infofooter h4{
-    font-size: 16px;
-    margin-bottom: 20px;
-    color: #000000;
-    cursor: pointer;
+.filter-container > .airlines {
+  padding: 12px 15px;
+  margin-bottom:5px;
+  color:#000000;
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+  gap:3px;
+  
 }
 
 
-/* <----footer-----> */
-.footer{
-    background-color: #000000;
-}
-.footerDivs{
-    width: 90%;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    padding-bottom: 20px;
-}
-.footerDivs h3{
-    margin-top: 60px;
-    margin-bottom: 40px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 20px;
-    color: #546273;
-    cursor: pointer;    
-}
-.footerDivs p{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 17px;
-    color:aliceblue;
-    margin-bottom: 20px;
 
-}
-.socialMediaImg{
-    margin-bottom: 30px;
-}
-.socialMediaImg img{
-    width: 30px;
-    height: 30px;
-    margin-right: 10px;
-    cursor: pointer;
-}
+ 
+
+
+
+
+
+
+
+
