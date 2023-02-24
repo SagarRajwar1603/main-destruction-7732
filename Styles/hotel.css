@@ -1,3 +1,6 @@
+*{
+    font-family: Lato;
+}
 .area {
     width: 55%;
     /* display: grid; */
@@ -146,19 +149,35 @@ ul{
 }
 
 .place{
-    line-height: 22px;
-    font-size: 22px;
+    /* line-height: 22px; */
+    font-size: 30px;
     color: #000;
+    font-weight: bold;
 }
 .second_part{
     display: flex;
     justify-content: space-between;
     display: flex;
     border: 2px solid;
-    width: 64em;
+    /* width: 64em; */
+    width: 100%;
     border: 0.2px solid;
     padding: 1em 1em;
     margin: 1em 0em;
+    cursor: pointer;
+}
+.second_part:hover{
+    background-color: #dfe9f6;
+}
+.second_part>div{
+    width: 30%;
+}
+.second_part img{
+    width: 100%;
+}
+.innerPtags{
+    font-size: 13px;
+    color: #00a19c;
 }
 .fistr_part{
     margin: 1em 0em;
