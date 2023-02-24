@@ -1,0 +1,251 @@
+{
+  "hotel":{
+  "delhi": [
+  {
+  "hotelName": "Kelvish Hotel Near Delhi Airport",
+  "hotelImage": "https://r1imghtlak.mmtcdn.com/e772b3b80cca11ed85ba0a58a9feac02.jpg?&output-quality=75&downsize=243:162&output-format=jpg",
+  "price": "₹ 1,671",
+  "innerImage":["https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/201808161650127422-181ffbf263f111ec8a220a58a9feac02.jpg?&output-quality=75&downsize=910:612&output-format=jpg","https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/201808161650127422-184ef9e8687e11eca9230a58a9feac02.jpg?&output-quality=75&downsize=910:612&output-format=jpg","https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/201808161650127422-ca48e8a8687d11ec8f710a58a9feac02.jpg?&output-quality=75&downsize=910:612&crop=910:612;16,0&output-format=jpg"]
+  },
+  {
+  "hotelName": "Hotel Aasiyana Inn",
+  "hotelImage": "https://r1imghtlak.mmtcdn.com/000895aa769911ecafea0a58a9feac02.jpg?&output-quality=75&downsize=243:162&crop=243:162;0,10&output-format=jpg",
+  "price": "₹ 950",
+  "innerImage":["https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/202201161217331884-80ec744297c411ec851c0a58a9feac02.jpg?&output-quality=75&downsize=910:612&crop=910:612;8,0&output-format=jpg","https://r1imghtlak.mmtcdn.com/000895aa769911ecafea0a58a9feac02.jpg?&output-quality=75&downsize=910:612&crop=910:612;0,35&output-format=jpg","https://r1imghtlak.mmtcdn.com/dce5d8c0916011ec85bf0a58a9feac02.jpg?&output-quality=75&downsize=910:612&crop=910:612;0,35&output-format=jpg"]
+  },
+   {
+  "hotelName": "The Elevate Hotel",
+  "hotelImage": "https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/201809111819083735-ed3e623e7d2b11ed9c5a0a58a9feac02.jpg?&output-quality=75&downsize=243:162&output-format=jpg",
+  "price": "₹ 2,464",
+  "innerImage":["https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/202211121139447780-a97d6a3261a511ed9f770a58a9feac02.jpg?&output-quality=75&downsize=910:612&crop=910:612;4,0&output-format=jpg","https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/202211121139447780-aa4af4ac61a511ed869c0a58a9feac02.jpg?&output-quality=75&downsize=910:612&crop=910:612;10,0&output-format=jpg","https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/202211121139447780-aa32a91a61a511edae030a58a9feac02.jpg?&output-quality=75&downsize=910:612&crop=910:612;19,0&output-format=jpg"]
+  },
+{
+  "hotelName": "The Gold Regency @ Paharganj",
+  "hotelImage": "https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/201712211031162716-41b2a43012f611ebafe70242ac110003.jpg?&output-quality=75&downsize=243:162&output-format=jpg",
+  "price": "₹ 3,227",
+  "innerImage":["https://r1imghtlak.mmtcdn.com/b563655c7fb411ea88930242ac110002.jpg?&output-quality=75&downsize=910:612&crop=910:612;4,0&output-format=jpg","https://r1imghtlak.mmtcdn.com/73d67e347e6b11eaa1ac0242ac110003.jpg?&output-quality=75&output-format=jpg","https://r1imghtlak.mmtcdn.com/5bj0je3sld7735m46u0on3h8004m.jpg?&output-quality=75&output-format=jpg"]
+},
+{
+  "hotelName": "Hotel Aman Continental @ Paharganj",
+  "hotelImage": "https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/201412311314381986-e9bad9f0669311e58aa3daf4768ad8d9.jpg?&output-quality=75&downsize=243:162&output-format=jpg",
+  "price": "₹ 4,218",
+  "innerImage":["https://r1imghtlak.mmtcdn.com/f7bae7e6fd5911e994060242ac110003.jpg?&output-quality=75&downsize=910:612&crop=910:612;0,35&output-format=jpg","https://r1imghtlak.mmtcdn.com/f66d417022e111e98c980242ac110002.jpg?&output-quality=75&downsize=910:612&crop=910:612;5,0&output-format=jpg","https://r1imghtlak.mmtcdn.com/bfdd22cc71c311e7ac9a0a4cef95d023.jpg?&output-quality=75&downsize=910:612&crop=910:612;4,0&output-format=jpg"]
+},
+{
+  "hotelName": "The Gold Inn@Walking Distance From New Delhi Railway Station",
+  "hotelImage": "https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/201801171858068349-55a798f2fa9811e793f702755708f0b3.jpg?&output-quality=75&downsize=243:162&crop=243:162;3,0&output-format=webp",
+  "price": "₹ 2,514",
+  "innerImage":["https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/201712291758115567-71ed545cbd2711eba0f20242ac110002.jpg?&output-quality=75&downsize=910:612&crop=910:612;4,0&output-format=jpg","https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/201712291758115567-66df0fa4c31211e89c310224510f5e5b.jpg?&output-quality=75&downsize=910:612&crop=910:612;4,0&output-format=jpg","https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/room-imgs/201712291758115567-4612862-0a9c75aec31911e896250a9df65c8753.jpg?downsize=377:200&crop=377:200"]
+},
+{
+  "hotelName": "Pullman New Delhi International Airport- An Accor Luxury Brand",
+  "hotelImage": "https://r1imghtlak.mmtcdn.com/80de8864360911eb8a620242ac110003.jpg?&output-quality=75&downsize=243:162&crop=243:162;0,5&output-format=webp",
+  "price": "₹ 18,500",
+  "innerImage":["https://r1imghtlak.mmtcdn.com/accfeb8ed05911ecb0310a58a9feac02.jpg?&output-quality=75&downsize=910:612&crop=910:612;3,0&output-format=jpg","https://r1imghtlak.mmtcdn.com/e3f69be4d05911ec9b5d0a58a9feac02.jpg?&output-quality=75&downsize=910:612&crop=910:612;3,0&output-format=jpg","https://r1imghtlak.mmtcdn.com/2c99d2d0d05a11ec9eaf0a58a9feac02.jpg?&output-quality=75&downsize=910:612&crop=910:612;3,0&output-format=jpg"]
+},
+{
+  "hotelName": "Hotel Almati Inn",
+  "hotelImage": "https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/201810121712152116-256f85f6229511ea92020242ac140003.jpg?&output-quality=75&downsize=243:162&crop=243:162;0,10&output-format=webp",
+  "price": "₹ 3,340",
+  "innerImage":["https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/201907171317358238-daac0eb8da0511e99fcb0242ac110002.jpg?&output-quality=75&downsize=910:612&crop=910:612;0,7&output-format=jpg","https://r1imghtlak.mmtcdn.com/745e6ceea86611e9a8160242ac110004.jpg?&output-quality=75&downsize=910:612&crop=910:612;141,0&output-format=jpg","https://r1imghtlak.mmtcdn.com/ab26a4e2ba9711e9bee30242ac110002.jpeg?&output-quality=75&downsize=910:612&crop=910:612;175,0&output-format=jpg"]
+},
+{
+  "hotelName": "Le ROI, Delhi@ New Delhi Railway Station",
+  "hotelImage": "https://r1imghtlak.mmtcdn.com/fe559a4470a011e7add5025f77df004f.jpg?&output-quality=75&downsize=243:162&output-format=webp",
+  "price": "₹ 4,862",
+  "innerImage":["https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/201907171317358238-daac0eb8da0511e99fcb0242ac110002.jpg?&output-quality=75&downsize=910:612&crop=910:612;0,7&output-format=jpg","https://r1imghtlak.mmtcdn.com/745e6ceea86611e9a8160242ac110004.jpg?&output-quality=75&downsize=910:612&crop=910:612;141,0&output-format=jpg","https://r1imghtlak.mmtcdn.com/ab26a4e2ba9711e9bee30242ac110002.jpeg?&output-quality=75&downsize=910:612&crop=910:612;175,0&output-format=jpg"]
+},
+{
+  "hotelName": "Hotel Smart Signature",
+  "hotelImage": "https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/201909231517385885-ca45fcdc9e0c11ec94bb0a58a9feac02.jpg?&output-quality=75&downsize=243:162&output-format=webp",
+  "price": "₹ 1,163",
+  "innerImage":["https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/201907171317358238-daac0eb8da0511e99fcb0242ac110002.jpg?&output-quality=75&downsize=910:612&crop=910:612;0,7&output-format=jpg","https://r1imghtlak.mmtcdn.com/745e6ceea86611e9a8160242ac110004.jpg?&output-quality=75&downsize=910:612&crop=910:612;141,0&output-format=jpg","https://r1imghtlak.mmtcdn.com/ab26a4e2ba9711e9bee30242ac110002.jpeg?&output-quality=75&downsize=910:612&crop=910:612;175,0&output-format=jpg"]
+}],
+
+"mumbai": [
+{
+  "hotelName": "J ESVI HOTELS",
+  "hotelImage": "https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/201912061819327380-ec7ccd68225711eaa9ce0242ac110006.jpg?&output-quality=75&downsize=243:162&crop=243:162;14,0&output-format=jpg",
+  "price": "₹ 3,145",
+  "innerImage":["https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/201712291758115567-71ed545cbd2711eba0f20242ac110002.jpg?&output-quality=75&downsize=910:612&crop=910:612;4,0&output-format=jpg","https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/201712291758115567-66df0fa4c31211e89c310224510f5e5b.jpg?&output-quality=75&downsize=910:612&crop=910:612;4,0&output-format=jpg","https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/room-imgs/201712291758115567-4612862-0a9c75aec31911e896250a9df65c8753.jpg?downsize=377:200&crop=377:200"]
+},
+{
+  "hotelName": "Hilton Mumbai International Airport",
+  "hotelImage": "https://r1imghtlak.mmtcdn.com/cb11fca2237611e8963e0a4cef95d023.jpg?&output-quality=75&downsize=243:162&output-format=jpg",
+  "price": "₹ 15,300",
+  "innerImage":["https://r1imghtlak.mmtcdn.com/f7bae7e6fd5911e994060242ac110003.jpg?&output-quality=75&downsize=910:612&crop=910:612;0,35&output-format=jpg","https://r1imghtlak.mmtcdn.com/f66d417022e111e98c980242ac110002.jpg?&output-quality=75&downsize=910:612&crop=910:612;5,0&output-format=jpg","https://r1imghtlak.mmtcdn.com/bfdd22cc71c311e7ac9a0a4cef95d023.jpg?&output-quality=75&downsize=910:612&crop=910:612;4,0&output-format=jpg"]
+},
+{
+  "hotelName": "VITS Mumbai International Airport T2",
+  "hotelImage": "https://r1imghtlak.mmtcdn.com/b82f15fa81fc11e7a50c0a4cef95d023.jpg?&output-quality=75&downsize=243:162&output-format=jpg",
+  "price": "₹ 8,999",
+  "innerImage":["https://r1imghtlak.mmtcdn.com/accfeb8ed05911ecb0310a58a9feac02.jpg?&output-quality=75&downsize=910:612&crop=910:612;3,0&output-format=jpg","https://r1imghtlak.mmtcdn.com/e3f69be4d05911ec9b5d0a58a9feac02.jpg?&output-quality=75&downsize=910:612&crop=910:612;3,0&output-format=jpg","https://r1imghtlak.mmtcdn.com/2c99d2d0d05a11ec9eaf0a58a9feac02.jpg?&output-quality=75&downsize=910:612&crop=910:612;3,0&output-format=jpg"]
+},
+{
+  "hotelName": "BYARIS INTERNATIONAL BY BIZZGROW HOTELS",
+  "hotelImage": "https://r1imghtlak.mmtcdn.com/559470c6fc9211e9beb20242ac110005.jpg?&output-quality=75&downsize=243:162&crop=243:162;0,10&output-format=jpg",
+  "price": "₹ 5,640",
+  "innerImage":["https://r1imghtlak.mmtcdn.com/b563655c7fb411ea88930242ac110002.jpg?&output-quality=75&downsize=910:612&crop=910:612;4,0&output-format=jpg","https://r1imghtlak.mmtcdn.com/73d67e347e6b11eaa1ac0242ac110003.jpg?&output-quality=75&output-format=jpg","https://r1imghtlak.mmtcdn.com/5bj0je3sld7735m46u0on3h8004m.jpg?&output-quality=75&output-format=jpg"]
+},
+{
+  "hotelName": "City Stay",
+  "hotelImage": "https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/202208032047353761-9174cd5213ff11ed88b00a58a9feac02.jpg?&output-quality=75&downsize=243:162&output-format=jpg",
+  "price": "₹ 1,311",
+  "innerImage":["https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/201907171317358238-daac0eb8da0511e99fcb0242ac110002.jpg?&output-quality=75&downsize=910:612&crop=910:612;0,7&output-format=jpg","https://r1imghtlak.mmtcdn.com/745e6ceea86611e9a8160242ac110004.jpg?&output-quality=75&downsize=910:612&crop=910:612;141,0&output-format=jpg","https://r1imghtlak.mmtcdn.com/ab26a4e2ba9711e9bee30242ac110002.jpeg?&output-quality=75&downsize=910:612&crop=910:612;175,0&output-format=jpg"]
+},
+{
+  "hotelName": "President, Mumbai - IHCL SeleQtions",
+  "hotelImage": "https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/200901081442472303-b18d7a7e5ca611eb8bd50242ac110006.jpg?&output-quality=75&downsize=243:162&crop=243:162;8,0&output-format=webp",
+  "price": "₹ 15,250",
+  "innerImage":["https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/202211121139447780-a97d6a3261a511ed9f770a58a9feac02.jpg?&output-quality=75&downsize=910:612&crop=910:612;4,0&output-format=jpg","https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/202211121139447780-aa4af4ac61a511ed869c0a58a9feac02.jpg?&output-quality=75&downsize=910:612&crop=910:612;10,0&output-format=jpg","https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/202211121139447780-aa32a91a61a511edae030a58a9feac02.jpg?&output-quality=75&downsize=910:612&crop=910:612;19,0&output-format=jpg"]
+},
+{
+  "hotelName": "Gateway Inn | Rooms in an Apartment",
+  "hotelImage": "https://r1imghtlak.mmtcdn.com/be25d13aabd211eab2d40242ac110002.jpg?&output-quality=75&downsize=243:162&output-format=webp",
+  "price": "₹ 1,851",
+  "innerImage":["https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/201907171317358238-daac0eb8da0511e99fcb0242ac110002.jpg?&output-quality=75&downsize=910:612&crop=910:612;0,7&output-format=jpg","https://r1imghtlak.mmtcdn.com/745e6ceea86611e9a8160242ac110004.jpg?&output-quality=75&downsize=910:612&crop=910:612;141,0&output-format=jpg","https://r1imghtlak.mmtcdn.com/ab26a4e2ba9711e9bee30242ac110002.jpeg?&output-quality=75&downsize=910:612&crop=910:612;175,0&output-format=jpg"]
+},
+{
+  "hotelName": "Ginger Mumbai, Goregaon",
+  "hotelImage": "https://r1imghtlak.mmtcdn.com/d1686bc4121c11edaa440a58a9feac02.jpg?&output-quality=75&downsize=243:162&crop=243:162;0,34&output-format=webp",
+  "price": "₹ 5,624",
+  "innerImage":["https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/202201161217331884-80ec744297c411ec851c0a58a9feac02.jpg?&output-quality=75&downsize=910:612&crop=910:612;8,0&output-format=jpg","https://r1imghtlak.mmtcdn.com/000895aa769911ecafea0a58a9feac02.jpg?&output-quality=75&downsize=910:612&crop=910:612;0,35&output-format=jpg","https://r1imghtlak.mmtcdn.com/dce5d8c0916011ec85bf0a58a9feac02.jpg?&output-quality=75&downsize=910:612&crop=910:612;0,35&output-format=jpg"]
+},
+{
+  "hotelName": "goSTOPS Mumbai",
+  "hotelImage": "https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/201902191131081865-b9a0b25e6fc611e98bff0242ac110004.jpg?&output-quality=75&downsize=243:162&output-format=webp",
+  "price": "₹ 1,374",
+  "innerImage":["https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/201907171317358238-daac0eb8da0511e99fcb0242ac110002.jpg?&output-quality=75&downsize=910:612&crop=910:612;0,7&output-format=jpg","https://r1imghtlak.mmtcdn.com/745e6ceea86611e9a8160242ac110004.jpg?&output-quality=75&downsize=910:612&crop=910:612;141,0&output-format=jpg","https://r1imghtlak.mmtcdn.com/ab26a4e2ba9711e9bee30242ac110002.jpeg?&output-quality=75&downsize=910:612&crop=910:612;175,0&output-format=jpg"]
+},
+{
+  "hotelName": "The Orchid Hotel Mumbai Vile Parle",
+  "hotelImage": "https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/20070418200017894-92cb6404639411ea9f8f0242ac110005.jpg?&output-quality=75&downsize=243:162&crop=243:162;30,0&output-format=webp",
+  "price": "₹ 17,998",
+  "innerImage":["https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/201808161650127422-181ffbf263f111ec8a220a58a9feac02.jpg?&output-quality=75&downsize=910:612&output-format=jpg","https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/201808161650127422-184ef9e8687e11eca9230a58a9feac02.jpg?&output-quality=75&downsize=910:612&output-format=jpg","https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/201808161650127422-ca48e8a8687d11ec8f710a58a9feac02.jpg?&output-quality=75&downsize=910:612&crop=910:612;16,0&output-format=jpg"]
+}
+],
+"goa" : [
+{
+  "hotelName": "ibis Styles Goa Calangute Resort - An Accor Brand",
+  "hotelImage": "https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/201606272320021734-ba124e64917411e78cd70224510f5e5b.jpg?&output-quality=75&downsize=243:162&crop=243:162;0,7&output-format=jpg",
+  "price": "₹ 8,499",
+  "innerImage":["https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/201808161650127422-181ffbf263f111ec8a220a58a9feac02.jpg?&output-quality=75&downsize=910:612&output-format=jpg","https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/201808161650127422-184ef9e8687e11eca9230a58a9feac02.jpg?&output-quality=75&downsize=910:612&output-format=jpg","https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/201808161650127422-ca48e8a8687d11ec8f710a58a9feac02.jpg?&output-quality=75&downsize=910:612&crop=910:612;16,0&output-format=jpg"]
+},
+{
+  "hotelName": "Magnum Resorts- Near Candolim Beach",
+  "hotelImage": "https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/201806261703123778-a16cefb6a37c11ed9a1b0a58a9feac02.jpg?&output-quality=75&downsize=243:162&output-format=jpg",
+  "price": "₹ 4,415",
+  "innerImage":["https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/202211121139447780-a97d6a3261a511ed9f770a58a9feac02.jpg?&output-quality=75&downsize=910:612&crop=910:612;4,0&output-format=jpg","https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/202211121139447780-aa4af4ac61a511ed869c0a58a9feac02.jpg?&output-quality=75&downsize=910:612&crop=910:612;10,0&output-format=jpg","https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/202211121139447780-aa32a91a61a511edae030a58a9feac02.jpg?&output-quality=75&downsize=910:612&crop=910:612;19,0&output-format=jpg"]
+},
+{
+  "hotelName": "Resort Terra Paraiso - A Beach Property",
+  "hotelImage": "https://r1imghtlak.mmtcdn.com/a7f9f0aa6e0c11e7b231025f77df004f.jpg?&output-quality=75&downsize=243:162&crop=243:162;36,0&output-format=jpg",
+  "price": "₹ 8,409",
+  "innerImage":["https://r1imghtlak.mmtcdn.com/f7bae7e6fd5911e994060242ac110003.jpg?&output-quality=75&downsize=910:612&crop=910:612;0,35&output-format=jpg","https://r1imghtlak.mmtcdn.com/f66d417022e111e98c980242ac110002.jpg?&output-quality=75&downsize=910:612&crop=910:612;5,0&output-format=jpg","https://r1imghtlak.mmtcdn.com/bfdd22cc71c311e7ac9a0a4cef95d023.jpg?&output-quality=75&downsize=910:612&crop=910:612;4,0&output-format=jpg"]
+},
+{
+  "hotelName": "DoubleTree by Hilton Goa - Panaji",
+  "hotelImage": "https://r1imghtlak.mmtcdn.com/ec80b39efcde11ea84570242ac110002.jpg?&output-quality=75&downsize=243:162&crop=243:162;23,0&output-format=jpg",
+  "price": "₹ 12,999",
+  "innerImage":["https://r1imghtlak.mmtcdn.com/accfeb8ed05911ecb0310a58a9feac02.jpg?&output-quality=75&downsize=910:612&crop=910:612;3,0&output-format=jpg","https://r1imghtlak.mmtcdn.com/e3f69be4d05911ec9b5d0a58a9feac02.jpg?&output-quality=75&downsize=910:612&crop=910:612;3,0&output-format=jpg","https://r1imghtlak.mmtcdn.com/2c99d2d0d05a11ec9eaf0a58a9feac02.jpg?&output-quality=75&downsize=910:612&crop=910:612;3,0&output-format=jpg"]
+},
+{
+  "hotelName": "The Avenue,Calangute",
+  "hotelImage": "https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/201811081454461351-0165c612f77f11e8ba650242ac110003.jpg?&output-quality=75&downsize=243:162&output-format=jpg",
+  "price": "₹ 5,170",
+  "innerImage":["https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/201907171317358238-daac0eb8da0511e99fcb0242ac110002.jpg?&output-quality=75&downsize=910:612&crop=910:612;0,7&output-format=jpg","https://r1imghtlak.mmtcdn.com/745e6ceea86611e9a8160242ac110004.jpg?&output-quality=75&downsize=910:612&crop=910:612;141,0&output-format=jpg","https://r1imghtlak.mmtcdn.com/ab26a4e2ba9711e9bee30242ac110002.jpeg?&output-quality=75&downsize=910:612&crop=910:612;175,0&output-format=jpg"]
+},
+{
+  "hotelName": "Ocean Palms Goa",
+  "hotelImage": "https://r1imghtlak.mmtcdn.com/73d67e347e6b11eaa1ac0242ac110003.jpg?&output-quality=75&downsize=243:162&output-format=webp",
+  "price": "₹ 5,900",
+  "innerImage":["https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/201907171317358238-daac0eb8da0511e99fcb0242ac110002.jpg?&output-quality=75&downsize=910:612&crop=910:612;0,7&output-format=jpg","https://r1imghtlak.mmtcdn.com/745e6ceea86611e9a8160242ac110004.jpg?&output-quality=75&downsize=910:612&crop=910:612;141,0&output-format=jpg","https://r1imghtlak.mmtcdn.com/ab26a4e2ba9711e9bee30242ac110002.jpeg?&output-quality=75&downsize=910:612&crop=910:612;175,0&output-format=jpg"]
+},
+{
+  "hotelName": "HARD ROCK HOTEL GOA",
+  "hotelImage": "https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/201302141837083549-2ccb73aa9fd711e9a00d0242ac110002.jpg?&output-quality=75&downsize=243:162&output-format=webp",
+  "price": "₹ 15,201",
+  "innerImage":["https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/201907171317358238-daac0eb8da0511e99fcb0242ac110002.jpg?&output-quality=75&downsize=910:612&crop=910:612;0,7&output-format=jpg","https://r1imghtlak.mmtcdn.com/745e6ceea86611e9a8160242ac110004.jpg?&output-quality=75&downsize=910:612&crop=910:612;141,0&output-format=jpg","https://r1imghtlak.mmtcdn.com/ab26a4e2ba9711e9bee30242ac110002.jpeg?&output-quality=75&downsize=910:612&crop=910:612;175,0&output-format=jpg"]
+},
+{
+  "hotelName": "VITS Shanti Solitaire, Arpora",
+  "hotelImage": "https://r1imghtlak.mmtcdn.com/fdff1e44652a11ebb78c0242ac110002.jpg?&output-quality=75&downsize=243:162&crop=243:162;0,10&output-format=webp",
+  "price": "₹ 4,177",
+  "innerImage":["https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/201712291758115567-71ed545cbd2711eba0f20242ac110002.jpg?&output-quality=75&downsize=910:612&crop=910:612;4,0&output-format=jpg","https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/201712291758115567-66df0fa4c31211e89c310224510f5e5b.jpg?&output-quality=75&downsize=910:612&crop=910:612;4,0&output-format=jpg","https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/room-imgs/201712291758115567-4612862-0a9c75aec31911e896250a9df65c8753.jpg?downsize=377:200&crop=377:200"]
+},
+{
+  "hotelName": "So My Resorts (SoMy Resorts)",
+  "hotelImage": "https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/201409091434047930-e777b1303a1a11eb96b00242ac110003.jpg?&output-quality=75&downsize=243:162&output-format=webp",
+  "price": "₹ 5,401",
+  "innerImage":["https://r1imghtlak.mmtcdn.com/b563655c7fb411ea88930242ac110002.jpg?&output-quality=75&downsize=910:612&crop=910:612;4,0&output-format=jpg","https://r1imghtlak.mmtcdn.com/73d67e347e6b11eaa1ac0242ac110003.jpg?&output-quality=75&output-format=jpg","https://r1imghtlak.mmtcdn.com/5bj0je3sld7735m46u0on3h8004m.jpg?&output-quality=75&output-format=jpg"]
+},
+{
+  "hotelName": "Ivy Retreat Apartments",
+  "hotelImage": "https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/20151230190314680-fa127a88e11911e981b30242ac110002.jpg?&output-quality=75&downsize=243:162&output-format=webp",
+  "price": "₹ 2,389",
+  "innerImage":["https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/202201161217331884-80ec744297c411ec851c0a58a9feac02.jpg?&output-quality=75&downsize=910:612&crop=910:612;8,0&output-format=jpg","https://r1imghtlak.mmtcdn.com/000895aa769911ecafea0a58a9feac02.jpg?&output-quality=75&downsize=910:612&crop=910:612;0,35&output-format=jpg","https://r1imghtlak.mmtcdn.com/dce5d8c0916011ec85bf0a58a9feac02.jpg?&output-quality=75&downsize=910:612&crop=910:612;0,35&output-format=jpg"]
+}
+],
+"guwahati" : [
+{
+  "hotelName": "Hotel SJ International",
+  "hotelImage": "https://r1imghtlak.mmtcdn.com/6b84da566f4511e795bd025f77df004f.jpg?&output-quality=75&downsize=243:162&output-format=jpg",
+  "price": "₹ 1,786",
+  "innerImage":["https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/201907171317358238-daac0eb8da0511e99fcb0242ac110002.jpg?&output-quality=75&downsize=910:612&crop=910:612;0,7&output-format=jpg","https://r1imghtlak.mmtcdn.com/745e6ceea86611e9a8160242ac110004.jpg?&output-quality=75&downsize=910:612&crop=910:612;141,0&output-format=jpg","https://r1imghtlak.mmtcdn.com/ab26a4e2ba9711e9bee30242ac110002.jpeg?&output-quality=75&downsize=910:612&crop=910:612;175,0&output-format=jpg"]
+},
+{
+  "hotelName": "Hotel Mirana,Guwahati",
+  "hotelImage": "https://r1imghtlak.mmtcdn.com/7ee660f6246311ec91a00a58a9feac02.jpeg?&output-quality=75&downsize=243:162&output-format=jpg",
+  "price": "₹ 1,644",
+  "innerImage":["https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/201907171317358238-daac0eb8da0511e99fcb0242ac110002.jpg?&output-quality=75&downsize=910:612&crop=910:612;0,7&output-format=jpg","https://r1imghtlak.mmtcdn.com/745e6ceea86611e9a8160242ac110004.jpg?&output-quality=75&downsize=910:612&crop=910:612;141,0&output-format=jpg","https://r1imghtlak.mmtcdn.com/ab26a4e2ba9711e9bee30242ac110002.jpeg?&output-quality=75&downsize=910:612&crop=910:612;175,0&output-format=jpg"]
+},
+{
+  "hotelName": "Hotel D Agneedeep",
+  "hotelImage": "https://r1imghtlak.mmtcdn.com/109d999e65b011e99d800242ac110002.jpg?&output-quality=75&downsize=243:162&output-format=jpg",
+  "price": "₹ 2,751",
+  "innerImage":["https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/201907171317358238-daac0eb8da0511e99fcb0242ac110002.jpg?&output-quality=75&downsize=910:612&crop=910:612;0,7&output-format=jpg","https://r1imghtlak.mmtcdn.com/745e6ceea86611e9a8160242ac110004.jpg?&output-quality=75&downsize=910:612&crop=910:612;141,0&output-format=jpg","https://r1imghtlak.mmtcdn.com/ab26a4e2ba9711e9bee30242ac110002.jpeg?&output-quality=75&downsize=910:612&crop=910:612;175,0&output-format=jpg"]
+},
+{
+  "hotelName": "Ginger Guwahati",
+  "hotelImage": "https://r1imghtlak.mmtcdn.com/91a20190780111e7a2030a4cef95d023.jpg?&output-quality=75&downsize=243:162&output-format=jpg",
+  "price": "₹ 2,249",
+  "innerImage":["https://r1imghtlak.mmtcdn.com/accfeb8ed05911ecb0310a58a9feac02.jpg?&output-quality=75&downsize=910:612&crop=910:612;3,0&output-format=jpg","https://r1imghtlak.mmtcdn.com/e3f69be4d05911ec9b5d0a58a9feac02.jpg?&output-quality=75&downsize=910:612&crop=910:612;3,0&output-format=jpg","https://r1imghtlak.mmtcdn.com/2c99d2d0d05a11ec9eaf0a58a9feac02.jpg?&output-quality=75&downsize=910:612&crop=910:612;3,0&output-format=jpg"]
+},
+{
+  "hotelName": "KB HOMES,GUWAHATI",
+  "hotelImage": "https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/201912212124034784-59085f4c233e11eab5b00242ac110006.jpg?&output-quality=75&downsize=243:162&output-format=jpg",
+  "price": "₹ 1,483",
+  "innerImage":["https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/201712291758115567-71ed545cbd2711eba0f20242ac110002.jpg?&output-quality=75&downsize=910:612&crop=910:612;4,0&output-format=jpg","https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/201712291758115567-66df0fa4c31211e89c310224510f5e5b.jpg?&output-quality=75&downsize=910:612&crop=910:612;4,0&output-format=jpg","https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/room-imgs/201712291758115567-4612862-0a9c75aec31911e896250a9df65c8753.jpg?downsize=377:200&crop=377:200"]
+},
+{
+  "hotelName": "Hotel D Courtyard",
+  "hotelImage": "https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/201509021514269979-32b1cfd8d4ec11e79b5a02755708f0b3.jpg?&output-quality=75&downsize=243:162&output-format=webp",
+  "price": "₹ 4,230",
+  "innerImage":["https://r1imghtlak.mmtcdn.com/f7bae7e6fd5911e994060242ac110003.jpg?&output-quality=75&downsize=910:612&crop=910:612;0,35&output-format=jpg","https://r1imghtlak.mmtcdn.com/f66d417022e111e98c980242ac110002.jpg?&output-quality=75&downsize=910:612&crop=910:612;5,0&output-format=jpg","https://r1imghtlak.mmtcdn.com/bfdd22cc71c311e7ac9a0a4cef95d023.jpg?&output-quality=75&downsize=910:612&crop=910:612;4,0&output-format=jpg"]
+},
+{
+  "hotelName": "Hotel Priya Palace",
+  "hotelImage": "https://r1imghtlak.mmtcdn.com/71bdb9403f2f11e9ad520242ac110002.jpeg?&output-quality=75&downsize=243:162&output-format=webp",
+  "price": "₹ 1,624",
+  "innerImage":["https://r1imghtlak.mmtcdn.com/b563655c7fb411ea88930242ac110002.jpg?&output-quality=75&downsize=910:612&crop=910:612;4,0&output-format=jpg","https://r1imghtlak.mmtcdn.com/73d67e347e6b11eaa1ac0242ac110003.jpg?&output-quality=75&output-format=jpg","https://r1imghtlak.mmtcdn.com/5bj0je3sld7735m46u0on3h8004m.jpg?&output-quality=75&output-format=jpg"]
+},
+{
+  "hotelName": "MAGIC SQUARE,HOTEL",
+  "hotelImage": "https://r1imghtlak.mmtcdn.com/acc025b2973511ec99110a58a9feac02.jpeg?&output-quality=75&downsize=243:162&crop=243:162;0,10&output-format=webp",
+  "price": "₹ 1,512",
+  "innerImage":["https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/202211121139447780-a97d6a3261a511ed9f770a58a9feac02.jpg?&output-quality=75&downsize=910:612&crop=910:612;4,0&output-format=jpg","https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/202211121139447780-aa4af4ac61a511ed869c0a58a9feac02.jpg?&output-quality=75&downsize=910:612&crop=910:612;10,0&output-format=jpg","https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/202211121139447780-aa32a91a61a511edae030a58a9feac02.jpg?&output-quality=75&downsize=910:612&crop=910:612;19,0&output-format=jpg"]
+},
+{
+  "hotelName": "Urban Cottage",
+  "hotelImage": "https://r1imghtlak.mmtcdn.com/b479303a6d2b11eb9f410242ac110002.jpeg?&output-quality=75&downsize=243:162&output-format=webp",
+  "price": "₹ 2,006",
+  "innerImage":["https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/202201161217331884-80ec744297c411ec851c0a58a9feac02.jpg?&output-quality=75&downsize=910:612&crop=910:612;8,0&output-format=jpg","https://r1imghtlak.mmtcdn.com/000895aa769911ecafea0a58a9feac02.jpg?&output-quality=75&downsize=910:612&crop=910:612;0,35&output-format=jpg","https://r1imghtlak.mmtcdn.com/dce5d8c0916011ec85bf0a58a9feac02.jpg?&output-quality=75&downsize=910:612&crop=910:612;0,35&output-format=jpg"]
+},
+{
+  "hotelName": "The Ornate",
+  "hotelImage": "https://r1imghtlak.mmtcdn.com/34748c36942011e886640adba321b900.jpg?&output-quality=75&downsize=243:162&crop=243:162;36,0&output-format=webp",
+  "price": "₹ 3,760",
+  "innerImage":["https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/201808161650127422-181ffbf263f111ec8a220a58a9feac02.jpg?&output-quality=75&downsize=910:612&output-format=jpg","https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/201808161650127422-184ef9e8687e11eca9230a58a9feac02.jpg?&output-quality=75&downsize=910:612&output-format=jpg","https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/201808161650127422-ca48e8a8687d11ec8f710a58a9feac02.jpg?&output-quality=75&downsize=910:612&crop=910:612;16,0&output-format=jpg"]
+}
+]
+  }}
