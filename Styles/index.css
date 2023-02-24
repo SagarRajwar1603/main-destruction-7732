@@ -40,6 +40,9 @@ body {
   align-items: center;
   justify-content: space-between;
   height: 55px;
+  /* position: sticky;
+  top: 0%;
+  z-index: 999; */
 }
 .logo {
   width: 9%;
@@ -616,7 +619,7 @@ li {
   justify-content: space-between;
 }
 .offers-section > h1 {
-  font-size: 38px;
+  font-size: 32px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   color: #302f2f;
@@ -685,7 +688,6 @@ li {
   border-radius: 10px;
 }
 
-
 swiper-container {
   width: 80%;
   height: 100px;
@@ -712,108 +714,227 @@ swiper-container {
   margin: 20px auto;
 }
 
-
-
-.small-slider-container img{
-width: 80px;
-margin-left: 10px;
-margin-right: 10px;
+.small-slider-container img {
+  width: 80px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
-.swip-slider{
- height: 100px;
- text-align: start;
- font-size: 14px;
+.swip-slider {
+  height: 100px;
+  text-align: start;
+  font-size: 14px;
 }
-.mySwiper{
+.mySwiper {
   height: 100px;
   padding: 10px;
 }
-   
-.hand{
+
+.hand {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.handpick{
+.handpick {
   width: 20%;
 }
-.hand-btn{
+.hand-btn {
   display: flex;
   align-items: center;
   justify-content: end;
 }
 
-
-
 /* handpic slider */
-.productHeader{
-width: 87%;
- margin: auto;
- color: #708AA5;
- font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
- font-size: 15px;
- margin-top: 50px;
- margin-bottom: 17px;
+.productHeader {
+  width: 87%;
+  margin: auto;
+  color: #708aa5;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 15px;
+  margin-top: 50px;
+  margin-bottom: 17px;
 }
 .product {
-    width: 100%;
-    margin: auto;
-    position: relative;
-    overflow: hidden;
-    margin-top: 30px;
-    }
-  .product-container {
-    display: flex;
-    overflow-x: auto;
-    scroll-behavior: smooth;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    box-sizing: border-box;
-    margin: auto;
-  }
-  .product-container::-webkit-scrollbar {
-    display: none;
-  }
-  .product-card{
-    width: 200px;
-    height: 200px;
-    cursor: pointer;
-    margin-right: 20px;
-    border-radius: 10px;
-   }
-   .product-card img{
+  width: 100%;
+  margin: auto;
+  position: relative;
+  overflow: hidden;
+  margin-top: 30px;
+}
+.product-container {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  box-sizing: border-box;
+  margin: auto;
+}
+.product-container::-webkit-scrollbar {
+  display: none;
+}
+.product-card {
+  width: 200px;
+  height: 200px;
+  cursor: pointer;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+.product-card img {
   width: 200px;
   height: 200px;
   border-radius: 10px;
-   }
+}
 
-   .download{
-    width: 100%;
+.download-container h3 {
+  margin-left: 30px;
+  font-weight: 700;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #444;
+}
+.download {
+  width: 100%;
+  height: 150px;
+}
+.download-details p {
+  font-size: 16px;
+}
+.download-details input {
+  width: 40%;
+  padding: 10px;
+  margin-top: 10px;
+  outline: none;
+}
+
+.download-details button {
+  font-size: 15px;
+  padding: 9px;
+  background: transparent;
+  border: 1px solid #444;
+  color: #1e88e5;
+  cursor: pointer;
+}
+.download-details {
+  width: 90%;
+  /* border: 2px solid red; */
+  height: 100px;
+  margin-left: 30px;
+  margin-top: 40px;
+}
+.download-details {
   display: flex;
-   align-items: center;
-   }
- 
-   .download div{
-    border: 2px solid red;
-   
-   }
-   .download div:nth-child(2){
-    width: 20%;
-    display: flex;
-   }
-   .download div:nth-child(2)>img{
-    width: 60%;
-
-   }
-   .download div:nth-child(3){
-    width: 20%
-   }
-   .download div:nth-child(3)>img{
+  align-items: center;
+  justify-content: space-between;
+}
+.download-details > div:nth-child(1) {
+  border-right: 1px solid #535353;
+  width: 60%;
+  padding: 10px;
+}
+.download-details img {
+  width: 170px;
+}
+.download-details div:nth-child(2) {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.download-details div:nth-child(2) > div:nth-child(2) {
+  padding-left: 20px;
+}
+.download-details div:nth-child(2) > div:nth-child(2) > img {
+  width: 110px;
+}
+/* slider text */
+.img-text{
+      position: relative;
+    bottom: 40%;
+    background: white;
+    left: 2.7%;
+    padding: 2px;
+    font-size: 16px;
     width: 40%;
-    margin-top: 20px;
-   text-align: center;
-    
-   }
+    text-align: center;
+    border-radius: 10px;
+}
+.img-text-h5{
+    position: relative;
+    bottom: 36%;
+    width: 85%;
+    color: white;
+    font-weight: 800;
+    font-family: ui-sans-serif;
+    left: 3.7%;
+}
+  
+/* footer
+    */
+.aboutGoMyTrip {
+  padding: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.aboutGoMyTrip p {
+  color: #4a4a4a;
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+.aboutGoMyTrip h6 {
+  color: #000000;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
 
+.infofooter {
+  background-color: #e7e7e7;
+  display: flex;
+  justify-content: space-around;
+}
+.infofooter div {
+  width: 30%;
+  padding: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: #4a4a4a;
+}
+.infofooter h4 {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #000000;
+  cursor: pointer;
+}
 
+/* <----footer-----> */
+.footer {
+  background-color: #000000;
+}
+.footerDivs {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+.footerDivs h3 {
+  margin-top: 60px;
+  margin-bottom: 40px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+  color: #546273;
+  cursor: pointer;
+}
+.footerDivs p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  color: aliceblue;
+  margin-bottom: 20px;
+}
+.socialMediaImg {
+  margin-bottom: 30px;
+}
+.socialMediaImg img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  cursor: pointer;
+}
