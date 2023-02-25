@@ -17,8 +17,8 @@ function Display(item){
         <div class="priceDetailDiv">
             <h4>1 King Size Bed,Superiror Room...</h4>
             <p>For 2 Adults Per Night</p>
-            <span>Rs 8683</span>
-            <p>+ Rs 1800 taxes and fees</p>
+            <span>Rs ${item.price}</span>
+            <p>+ gst,taxes and fees</p>
             <hr>
             <span class="viewRoomMapReview">VIEW OTHER ROOMS</span>
             <button id="bookToCart">BOOK THIS NOW</button>
@@ -29,7 +29,7 @@ function Display(item){
                 <span class="viewRoomMapReview">VIEW ON MAP</span>
             </div>
             <div>
-                <div id="rating">4.9</div>
+                <div id="rating">${item.rating}</div>
                 <p>Excellent Rating</p>
                 <hr>
                 <span class="viewRoomMapReview">READ ALL REVIEWS</span>

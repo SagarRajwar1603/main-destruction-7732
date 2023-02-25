@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./Styles/index.css">
+    <link rel="stylesheet" href="./Styles/hotelSearch.css">
 
     <!-- Applying font family Lato from google fonts on index.css line 8-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -127,7 +127,7 @@
                         </li>
                         <li>
                             <div>
-                                <a href="hotelSearch.html"><i class="fa-sharp fa-solid fa-hotel"></i></a>
+                                <a href="./Pages/hotel.html"><i class="fa-sharp fa-solid fa-hotel"></i></a>
 
                                 <p>Hotels</p>
                             </div>
@@ -194,44 +194,48 @@
                         <div class="trip-category">
                             <div>
                                 <input type="radio" id="oneWay" name="contact" value="one-way">
-                                <label for="oneWay">ONE WAY</label>
+                                <label for="oneWay">UPTO 5 ROOMS</label>
                                 <input type="radio" id="roundTrip" name="contact" value="roundTrip">
-                                <label for="roundTrip">ROUND TRIP</label>
-                                <input type="radio" id="multiCity" name="contact" value="multiCity">
-                                <label for="multiCity">MULTICITY</label>
+                                <label for="roundTrip">GROUP DEALS</label>
+                                
                             </div>
                             <div>
-                                <p>Book International and Domestic Flights</p>
+                               
                             </div>
                         </div>
 
                         <div class="booking-section">
                             <div>
-                                <p>From</p>
-                                <h3 id="swapDep">Delhi</h3>
+                                <p>CITY,PROPERTY NAME OR LOCATION</p>
+                                <select name="" id="selTag" >
+                                    <option value="goa">Goa</option>
+                                    <option value="delhi">Delhi</option>
+                                    <option value="mumbai">Mumbai</option>
+                                    <option value="guwahati">Guwahati</option>
+                                </select>
                                 <p style="font-size: 13px;" id="swapDet">DEL, Delhi Airport India</p>
-                                <i class="fa-solid fa-right-left" id="swap-logo"></i>
+                                <!-- <i class="fa-solid fa-right-left" id="swap-logo"></i> -->
                             </div>
 
-                            <div>
+                            <!-- <div>
                                 <p>TO</p>
                                 <h3 id="swapAri">Bengaluru</h3>
                                 <p style="font-size: 13px;" id="swapADri">BLR, Bengaluru International Airport India</p>
-                            </div>
+                            </div> -->
                             <div>
-                                <p>DEPARTURE <i class="fa-solid fa-chevron-down"></i></p>
+                                <p>CHECK-IN <i class="fa-solid fa-chevron-down"></i></p>
                                 <h3>24 <span>Feb25</span></h3>
                                 <p style="font-size: 13px;">Wednesday</p>
                             </div>
                             <div>
-                                <p>RETURN <i class="fa-solid fa-chevron-down"></i></p>
+                                <p>CHECK-OUT <i class="fa-solid fa-chevron-down"></i></p>
                                 <h3>24 <span>Feb25</span></h3>
                                 <p style="font-size: 13px;">Wednesday</p>
                             </div>
                             <div>
-                                <p>TRAVELLERS & CLASS<i class="fa-solid fa-chevron-down"></i></p>
+                                <p>PRICE PER NIGHT<i class="fa-solid fa-chevron-down"></i></p>
                                 <h3>1<span>Traveller</span></h3>
-                                <p style="font-size: 13px;">Economy/Premium Economy</p>
+                                <p style="font-size: 13px;">BUDGET/LUXURY</p>
                                 <p style="color: goldenrod; font-size: 11px; font-weight: 700;margin-top: 5px;">Group
                                     Bookings Available!</p>
                             </div>
@@ -286,7 +290,7 @@
                                 </div>
                             </div>
                             <div class="search-btn">
-                                <button>Search</button>
+                                <button id="searchPress">Search</button>
                             </div>
                         </div>
                     </div>
@@ -801,5 +805,5 @@
 
 </html>
 
-<script src="./Scripts//index.js"></script>
+<script src="./Scripts//hotelSearch.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>

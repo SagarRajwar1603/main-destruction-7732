@@ -5,6 +5,8 @@
 }
 body {
   background-color: #eeeeee;
+  font-family: Lato;    
+  /*This is Lato Font family...Remove it if it breaks other css component */
 }
 
 .main-container {
