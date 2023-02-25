@@ -1,20 +1,51 @@
 let cardBody = document.getElementById("cardImpl");
-let TempData = [];
+let TempData ;
+let TempArray = [];
+let city = localStorage.getItem("cityHotel")
+console.log(city)
 fetch(`https://hotel-api-test.onrender.com/hotel`)
 .then(res=>res.json())
 .then((data)=>{
     // console.log(data.delhi)
-    TempData = [...data.delhi];
-    console.log(TempData)
-    Display(data.delhi)
+    TempData = data;
+    // console.log(TempData)
+    TempArray = [...data[city]]
+    Display(data[city],city)
     // console.log(data.delhi)
 })
 .catch((err)=>{
     console.log(err)
 })
-function Display(data)
+
+let select = document.getElementById("sel");
+select.addEventListener("change",()=>{
+    if(select.value=="goa")
+    {
+        TempArray = [...TempData.goa];
+        Display(TempData.goa,"Goa")
+    }
+    else if(select.value=="mumbai")
+    {
+        TempArray = [...TempData.mumbai];
+        Display(TempData.mumbai,"Mumbai")
+    }
+    else if(select.value=="guwahati")
+    {
+        TempArray = [...TempData.guwahati];
+        Display(TempData.guwahati,"Guwahati")
+    }
+    else if(select.value=="delhi")
+    {
+        TempArray = [...TempData.delhi];
+        Display(TempData.delhi,"Delhi")
+    }
+})
+
+
+function Display(data,city)
 {
     cardBody.innerHTML = "";
+    let hOne = `<h1>Showing Properties in ${city}</h1>`
     let cardItems = data.map((item)=>{
         // console.log(item)
         return `
@@ -29,31 +60,31 @@ function Display(data)
                <p class="innerPtags">Couple Friendly</p>
            </div>
          <div class="price">
-            <p>₹ 1,35,000</p>
-            <p>+ ${item.price}taxes & fees</p>
-            <p>Per Night</p>
-            <span>No Cost</span>
-            <span>EMI</span>
-            <p>starts at
-                <span>₹ 26,550</span>
-            </p>
+            <p>Per Night Price :</p>
+            <p>+ ₹ ${item.price} taxes & fees</p>
+            <p>Rating</p>
+            <div id="rating">${item.rating}</div>
+            
          </div>
            </div>
         `
 
     }).join("");
-    cardBody.innerHTML = cardItems;
+    cardBody.innerHTML+=hOne
+    cardBody.innerHTML += cardItems;
 
     
 }
 
 function goToHotelInner(id) {
-    let localData = TempData.find((item)=>{
+    // console.log(id)
+    let localData = TempArray.find((item)=>{
         if(item.id==id)
         {
             return item;
         }
     })
+    console.log(localData)
     localStorage.setItem("item",JSON.stringify(localData));
     window.location.href="../hotel_inner.html"
 }

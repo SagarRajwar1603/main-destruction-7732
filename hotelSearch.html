@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./Styles/index.css">
+    <link rel="stylesheet" href="./Styles/hotelSearch.css">
 
     <!-- Applying font family Lato from google fonts on index.css line 8-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -76,7 +76,7 @@
                         <div class="login-form">
                             <div class="login-input">
                                 <label>Email or Mobile Number</label>
-                                <input type="text" placeholder="Enter email or mobile number" id="loginInput">
+                                <input type="text" placeholder="Enter email or mobile number">
                                 <button class="login-btn">CONTINUE</button>
                             </div>
                             <div class="login-bottom">
@@ -127,8 +127,8 @@
                         </li>
                         <li>
                             <div>
+                                <a href="./Pages/hotel.html"><i class="fa-sharp fa-solid fa-hotel"></i></a>
 
-                                <a href="hotelSearch.html"><i class="fa-sharp fa-solid fa-hotel"></i></a>
                                 <p>Hotels</p>
                             </div>
                         </li>
@@ -194,44 +194,48 @@
                         <div class="trip-category">
                             <div>
                                 <input type="radio" id="oneWay" name="contact" value="one-way">
-                                <label for="oneWay">ONE WAY</label>
+                                <label for="oneWay">UPTO 5 ROOMS</label>
                                 <input type="radio" id="roundTrip" name="contact" value="roundTrip">
-                                <label for="roundTrip">ROUND TRIP</label>
-                                <input type="radio" id="multiCity" name="contact" value="multiCity">
-                                <label for="multiCity">MULTICITY</label>
+                                <label for="roundTrip">GROUP DEALS</label>
+                                
                             </div>
                             <div>
-                                <p>Book International and Domestic Flights</p>
+                               
                             </div>
                         </div>
 
                         <div class="booking-section">
                             <div>
-                                <p>From</p>
-                                <h3 id="swapDep">Delhi</h3>
+                                <p>CITY,PROPERTY NAME OR LOCATION</p>
+                                <select name="" id="selTag" >
+                                    <option value="goa">Goa</option>
+                                    <option value="delhi">Delhi</option>
+                                    <option value="mumbai">Mumbai</option>
+                                    <option value="guwahati">Guwahati</option>
+                                </select>
                                 <p style="font-size: 13px;" id="swapDet">DEL, Delhi Airport India</p>
-                                <i class="fa-solid fa-right-left" id="swap-logo"></i>
+                                <!-- <i class="fa-solid fa-right-left" id="swap-logo"></i> -->
                             </div>
 
-                            <div>
+                            <!-- <div>
                                 <p>TO</p>
                                 <h3 id="swapAri">Bengaluru</h3>
                                 <p style="font-size: 13px;" id="swapADri">BLR, Bengaluru International Airport India</p>
-                            </div>
+                            </div> -->
                             <div>
-                                <p>DEPARTURE <i class="fa-solid fa-chevron-down"></i></p>
+                                <p>CHECK-IN <i class="fa-solid fa-chevron-down"></i></p>
                                 <h3>24 <span>Feb25</span></h3>
                                 <p style="font-size: 13px;">Wednesday</p>
                             </div>
                             <div>
-                                <p>RETURN <i class="fa-solid fa-chevron-down"></i></p>
+                                <p>CHECK-OUT <i class="fa-solid fa-chevron-down"></i></p>
                                 <h3>24 <span>Feb25</span></h3>
                                 <p style="font-size: 13px;">Wednesday</p>
                             </div>
                             <div>
-                                <p>TRAVELLERS & CLASS<i class="fa-solid fa-chevron-down"></i></p>
+                                <p>PRICE PER NIGHT<i class="fa-solid fa-chevron-down"></i></p>
                                 <h3>1<span>Traveller</span></h3>
-                                <p style="font-size: 13px;">Economy/Premium Economy</p>
+                                <p style="font-size: 13px;">BUDGET/LUXURY</p>
                                 <p style="color: goldenrod; font-size: 11px; font-weight: 700;margin-top: 5px;">Group
                                     Bookings Available!</p>
                             </div>
@@ -286,7 +290,7 @@
                                 </div>
                             </div>
                             <div class="search-btn">
-                                <button>Search</button>
+                                <button id="searchPress">Search</button>
                             </div>
                         </div>
                     </div>
@@ -351,60 +355,18 @@
                                 <h4>CABS</h4>
                             </div>
 
-                            <!-- <div class="slider-btn">
+                            <div class="slider-btn">
                                 <p>View All</p>
                                 <i class="fa-sharp fa-solid fa-right-long"></i>
                                 <i class="fa-solid fa-chevron-left pre-btn"></i>
                                 <i class="fa-solid fa-chevron-right nxt-btn"></i>
-                            </div> -->
+                            </div>
                         </div>
                     </div>
 
 
-                    <div class="products-container">
-                            <div class="product-card">
-                                <img src="https://promos.makemytrip.com/notification/xhdpi//Desktop-DF-Extended-17Feb.jpg"
-                                    class="product-thumb" alt="">
-                            </div>
+                    <div class="product-container">
 
-
-                            <div class="product-card">
-                                <img src="https://promos.makemytrip.com/notification/xhdpi//Desktop-IF-Extended-17Feb.jpg"
-                                    class="product-thumb" alt="">
-                            </div>
-
-                            <div class="product-card">
-                                <img src="https://promos.makemytrip.com/notification/xhdpi//Desktop-IH-TravelFest-22Feb.jpg"
-                                    class="product-thumb" alt="">
-                            </div>
-                            <div class="product-card">
-                                <img src="https://promos.makemytrip.com/notification/xhdpi//Desktop-IF-Australia-20Feb.jpg"
-                                    class="product-thumb" alt="">
-                            </div>
-                            <div class="product-card">
-                                <img src="https://promos.makemytrip.com/notification/xhdpi//116x116-malaysia-airlines-22022023.jpg"
-                                    class="product-thumb" alt="">
-                            </div>
-                            <div class="product-card">
-                                <img src="https://promos.makemytrip.com/notification/xhdpi//indigo-116x116-07072022.jpg"
-                                    class="product-thumb" alt="">
-                            </div>
-                            <div class="product-card">
-                                <img src="https://promos.makemytrip.com/notification/xhdpi//Desktop_TickTok_2Feb@2x.jpg"
-                                    class="product-thumb" alt="">
-                            </div>
-                            <div class="product-card">
-                                <img src="https://promos.makemytrip.com/notification/xhdpi//Desktop-HS-Longweekend-30223.jpg"
-                                    class="product-thumb" alt="">
-                            </div>
-                            <div class="product-card">
-                                <img src="https://promos.makemytrip.com/notification/xhdpi//Desktop-DH-TravelFest-22Feb.jpg"
-                                    class="product-thumb" alt="">
-                            </div>
-                            <div class="product-card">
-                                <img src="https://promos.makemytrip.com/notification/xhdpi//Desktop-IF-MiddleEast-20Feb.jpg"
-                                    class="product-thumb" alt="">
-                            </div>
                         <!-- mid slider -->
                     </div>
                 </section>
@@ -456,26 +418,24 @@
                         <div class="download">
                             <div class="download-details">
                                 <div>
-                                    <p>Use code WELCOMEMMT and get upto Rs 1200 off on your first domestic flight
-                                        booking
-                                    </p>
-                                    <input type="number" placeholder="Enter your mobile number">
-                                    <button>GET APP LINK</button>
+                                <p>Use code WELCOMEMMT and get upto Rs 1200 off on your first domestic flight booking
+                                </p>
+                                <input type="number" placeholder="Enter your mobile number">
+                                <button>GET APP LINK</button>
                                 </div>
                                 <div>
-
+                                  
                                     <div>
                                         <img src="https://clipground.com/images/download-app-png-1.png" alt="">
                                     </div>
-                                    <!-- <p>MORE WAYS TO GET THE APP</p> -->
+                                <!-- <p>MORE WAYS TO GET THE APP</p> -->
                                     <div>
-                                        <img src="https://promos.makemytrip.com/notification/xhdpi/QRCodeDT_QR-code.jpg"
-                                            alt="">
+                                        <img src="https://promos.makemytrip.com/notification/xhdpi/QRCodeDT_QR-code.jpg" alt="">
                                     </div>
                                 </div>
                             </div>
                         </div>
-
+                        
 
 
                     </div>
@@ -502,115 +462,60 @@
                         <div class="product-card">
                             <img src="https://hblimg.mmtcdn.com/content/hubble/img/delhi_hotels_tiow/mmt/activities/m_Le%20ROI%20Floating%20Huts_Eco%20Rooms_Tehri_Uttarakhand_l_550_821.jpg"
                                 class="product-thumb" alt="">
-                            <h5 class="img-text">TOP 8</h5>
-                            <h4 class="img-text-h5">Stays in & Around Delhi For a Weekend Gateway</h4>
+                                <h5 class="img-text">TOP 8</h5>
+                                <h4 class="img-text-h5">Stays in & Around Delhi For a Weekend Gateway</h4>
                         </div>
 
                         <div class="product-card">
                             <img src="https://hblimg.mmtcdn.com/content/hubble/img/seo_img/mmt/activities/m_Radisson_blu_image_seo_l_550_821.jpg"
                                 class="product-thumb" alt="">
-                            <h5 class="img-text">TOP 8</h5>
-                            <h4 class="img-text-h5">Stays in & Around Delhi For a Weekend Gateway</h4>
+                                <h5 class="img-text">TOP 8</h5>
+                                <h4 class="img-text-h5">Stays in & Around Delhi For a Weekend Gateway</h4>
                         </div>
 
 
                         <div class="product-card">
                             <img src="https://hblimg.mmtcdn.com/content/hubble/img/bangalore_hotel_tiow/mmt/activities/m_Waterwoods%20Lodges%20&%20Resorts_Kabini_l_550_821.jpg"
                                 class="product-thumb" alt="">
-                            <h5 class="img-text">TOP 8</h5>
-                            <h4 class="img-text-h5">Stays in & Around Delhi For a Weekend Gateway</h4>
+                                 <h5 class="img-text">TOP 8</h5>
+                                <h4 class="img-text-h5">Stays in & Around Delhi For a Weekend Gateway</h4>
                         </div>
 
 
                         <div class="product-card">
                             <img src="https://hblimg.mmtcdn.com/content/hubble/img/collections/m_beach44_p_540_417.jpg"
                                 class="product-thumb" alt="">
-                            <h5 class="img-text">TOP 8</h5>
-                            <h4 class="img-text-h5">Stays in & Around Delhi For a Weekend Gateway</h4>
+                                 <h5 class="img-text">TOP 8</h5>
+                                <h4 class="img-text-h5">Stays in & Around Delhi For a Weekend Gateway</h4>
                         </div>
 
 
                         <div class="product-card">
                             <img src="https://hblimg.mmtcdn.com/content/hubble/img/collections/m_weekend44_p_540_417.jpg"
                                 class="product-thumb" alt="">
-                            <h5 class="img-text">TOP 8</h5>
-                            <h4 class="img-text-h5">Stays in & Around Delhi For a Weekend Gateway</h4>
+                                 <h5 class="img-text">TOP 8</h5>
+                                <h4 class="img-text-h5">Stays in & Around Delhi For a Weekend Gateway</h4>
                         </div>
 
 
                         <div class="product-card">
                             <img src="https://hblimg.mmtcdn.com/content/hubble/img/collections/m_hill_stations11_p_540_417.jpg"
                                 class="product-thumb" alt="">
-                            <h5 class="img-text">TOP 8</h5>
-                            <h4 class="img-text-h5">Stays in & Around Delhi For a Weekend Gateway</h4>
+                                 <h5 class="img-text">TOP 8</h5>
+                                <h4 class="img-text-h5">Stays in & Around Delhi For a Weekend Gateway</h4>
                         </div>
 
 
                         <div class="product-card">
                             <img src="https://hblimg.mmtcdn.com/content/hubble/img/Australia/mmt/destination/m_Australia_destination_6_l_361_641.jpg"
                                 class="product-thumb" alt="">
-                            <h5 class="img-text">TOP 8</h5>
-                            <h4 class="img-text-h5">Stays in & Around Delhi For a Weekend Gateway</h4>
-                        </div>
-                        <div class="product-card">
-                            <img src="https://hblimg.mmtcdn.com/content/hubble/img/delhi_hotels_tiow/mmt/activities/m_Le%20ROI%20Floating%20Huts_Eco%20Rooms_Tehri_Uttarakhand_l_550_821.jpg"
-                                class="product-thumb" alt="">
-                            <h5 class="img-text">TOP 8</h5>
-                            <h4 class="img-text-h5">Stays in & Around Delhi For a Weekend Gateway</h4>
-                        </div>
-
-                        <div class="product-card">
-                            <img src="https://hblimg.mmtcdn.com/content/hubble/img/seo_img/mmt/activities/m_Radisson_blu_image_seo_l_550_821.jpg"
-                                class="product-thumb" alt="">
-                            <h5 class="img-text">TOP 8</h5>
-                            <h4 class="img-text-h5">Stays in & Around Delhi For a Weekend Gateway</h4>
-                        </div>
-
-
-                        <div class="product-card">
-                            <img src="https://hblimg.mmtcdn.com/content/hubble/img/bangalore_hotel_tiow/mmt/activities/m_Waterwoods%20Lodges%20&%20Resorts_Kabini_l_550_821.jpg"
-                                class="product-thumb" alt="">
-                            <h5 class="img-text">TOP 8</h5>
-                            <h4 class="img-text-h5">Stays in & Around Delhi For a Weekend Gateway</h4>
-                        </div>
-
-
-                        <div class="product-card">
-                            <img src="https://hblimg.mmtcdn.com/content/hubble/img/collections/m_beach44_p_540_417.jpg"
-                                class="product-thumb" alt="">
-                            <h5 class="img-text">TOP 8</h5>
-                            <h4 class="img-text-h5">Stays in & Around Delhi For a Weekend Gateway</h4>
-                        </div>
-
-
-                        <div class="product-card">
-                            <img src="https://hblimg.mmtcdn.com/content/hubble/img/collections/m_weekend44_p_540_417.jpg"
-                                class="product-thumb" alt="">
-                            <h5 class="img-text">TOP 8</h5>
-                            <h4 class="img-text-h5">Stays in & Around Delhi For a Weekend Gateway</h4>
-                        </div>
-
-
-                        <div class="product-card">
-                            <img src="https://hblimg.mmtcdn.com/content/hubble/img/collections/m_hill_stations11_p_540_417.jpg"
-                                class="product-thumb" alt="">
-                            <h5 class="img-text">TOP 8</h5>
-                            <h4 class="img-text-h5">Stays in & Around Delhi For a Weekend Gateway</h4>
-                        </div>
-
-
-                        <div class="product-card">
-                            <img src="https://hblimg.mmtcdn.com/content/hubble/img/Australia/mmt/destination/m_Australia_destination_6_l_361_641.jpg"
-                                class="product-thumb" alt="">
-                            <h5 class="img-text">TOP 8</h5>
-                            <h4 class="img-text-h5">Stays in & Around Delhi For a Weekend Gateway</h4>
+                                 <h5 class="img-text">TOP 8</h5>
+                                <h4 class="img-text-h5">Stays in & Around Delhi For a Weekend Gateway</h4>
                         </div>
                     </div>
 
 
                 </section>
-
-              
 
                 <section class="product" style="background-color: #ffffff;">
 
@@ -619,7 +524,7 @@
                         <div class="handpick">
                             <div class="hand-btn">
                                 <!-- <p>View All</p> -->
-                                <i class="fa-solid fa-chevron-left pre-btn"></i>
+                                <!-- <i class="fa-sharp fa-solid fa-right-long"></i> -->
                                 <i class="fa-solid fa-chevron-right nxt-btn"></i>
                             </div>
                         </div>
@@ -630,144 +535,73 @@
                         <div class="product-card">
                             <img src="https://hblimg.mmtcdn.com//content/hubble/img/udupi/mmt/destination/m_destination-udupi-landscape_l_400_640.jpg"
                                 class="product-thumb" alt="">
-                            <h5 class="img-text">TOP 8</h5>
-                            <h4 class="img-text-h5">Stays in & Around Delhi For a Weekend Gateway</h4>
+                                 <h5 class="img-text">TOP 8</h5>
+                                <h4 class="img-text-h5">Stays in & Around Delhi For a Weekend Gateway</h4>
                         </div>
 
                         <div class="product-card">
                             <img src="https://hblimg.mmtcdn.com//content/hubble/img/panchmarhi/mmt/destination/m_Destination_Panchmarhi_l_464_696.jpg"
                                 class="product-thumb" alt="">
-                            <h5 class="img-text">TOP 8</h5>
-                            <h4 class="img-text-h5">Stays in & Around Delhi For a Weekend Gateway</h4>
+                                 <h5 class="img-text">TOP 8</h5>
+                                <h4 class="img-text-h5">Stays in & Around Delhi For a Weekend Gateway</h4>
                         </div>
 
 
                         <div class="product-card">
                             <img src="https://hblimg.mmtcdn.com//content/hubble/img/dapoli/mmt/destination/m_Dapoli_l_703_937.jpg"
                                 class="product-thumb" alt="">
-                            <h5 class="img-text">TOP 8</h5>
-                            <h4 class="img-text-h5">Stays in & Around Delhi For a Weekend Gateway</h4>
+                                 <h5 class="img-text">TOP 8</h5>
+                                <h4 class="img-text-h5">Stays in & Around Delhi For a Weekend Gateway</h4>
                         </div>
 
 
                         <div class="product-card">
                             <img src="https://hblimg.mmtcdn.com//content/hubble/img/vengurla/mmt/destination/m_destination_vengurla_landscape_l_400_640.jpg"
                                 class="product-thumb" alt="">
-                            <h5 class="img-text">TOP 8</h5>
-                            <h4 class="img-text-h5">Stays in & Around Delhi For a Weekend Gateway</h4>
+                                 <h5 class="img-text">TOP 8</h5>
+                                <h4 class="img-text-h5">Stays in & Around Delhi For a Weekend Gateway</h4>
                         </div>
 
 
                         <div class="product-card">
                             <img src="https://hblimg.mmtcdn.com//content/hubble/img/dandeli/mmt/destination/m_Destination_Dandeli_l_536_804.jpg"
                                 class="product-thumb" alt="">
-                            <h5 class="img-text">TOP 8</h5>
-                            <h4 class="img-text-h5">Stays in & Around Delhi For a Weekend Gateway</h4>
+                                 <h5 class="img-text">TOP 8</h5>
+                                <h4 class="img-text-h5">Stays in & Around Delhi For a Weekend Gateway</h4>
                         </div>
 
 
                         <div class="product-card">
                             <img src="https://hblimg.mmtcdn.com//content/hubble/img/destination/mmt/destination/m_destination_vagamon_landscape_l_400_640.jpg"
                                 class="product-thumb" alt="">
-                            <h5 class="img-text">TOP 8</h5>
-                            <h4 class="img-text-h5">Stays in & Around Delhi For a Weekend Gateway</h4>
+                                 <h5 class="img-text">TOP 8</h5>
+                                <h4 class="img-text-h5">Stays in & Around Delhi For a Weekend Gateway</h4>
                         </div>
 
 
                         <div class="product-card">
                             <img src="https://hblimg.mmtcdn.com//content/hubble/img/tadoba/mmt/destination/m_Tadoba_l_587_880.jpg"
                                 class="product-thumb" alt="">
-                            <h5 class="img-text">TOP 8</h5>
-                            <h4 class="img-text-h5">Stays in & Around Delhi For a Weekend Gateway</h4>
+                                 <h5 class="img-text">TOP 8</h5>
+                                <h4 class="img-text-h5">Stays in & Around Delhi For a Weekend Gateway</h4>
                         </div>
                         <div class="product-card">
                             <img src="https://hblimg.mmtcdn.com//content/hubble/img/guntur/mmt/destination/m_Guntur-landscape_l_400_640.jpg"
                                 class="product-thumb" alt="">
-                            <h5 class="img-text">TOP 8</h5>
-                            <h4 class="img-text-h5">Stays in & Around Delhi For a Weekend Gateway</h4>
+                                 <h5 class="img-text">TOP 8</h5>
+                                <h4 class="img-text-h5">Stays in & Around Delhi For a Weekend Gateway</h4>
                         </div>
                         <div class="product-card">
                             <img src="https://hblimg.mmtcdn.com//content/hubble/img/Bhandardara/mmt/destination/m_Bhandardara_l_568_852.jpg"
                                 class="product-thumb" alt="">
-                            <h5 class="img-text">TOP 8</h5>
-                            <h4 class="img-text-h5">Stays in & Around Delhi For a Weekend Gateway</h4>
+                                 <h5 class="img-text">TOP 8</h5>
+                                <h4 class="img-text-h5">Stays in & Around Delhi For a Weekend Gateway</h4>
                         </div>
                         <div class="product-card">
                             <img src="https://hblimg.mmtcdn.com//content/hubble/img/shoghi/mmt/destination/m_Shoghi_l_667_1000.jpg"
                                 class="product-thumb" alt="">
-                            <h5 class="img-text">TOP 8</h5>
-                            <h4 class="img-text-h5">Stays in & Around Delhi For a Weekend Gateway</h4>
-                        </div>
-                        <div class="product-card">
-                            <img src="https://hblimg.mmtcdn.com//content/hubble/img/udupi/mmt/destination/m_destination-udupi-landscape_l_400_640.jpg"
-                                class="product-thumb" alt="">
-                            <h5 class="img-text">TOP 8</h5>
-                            <h4 class="img-text-h5">Stays in & Around Delhi For a Weekend Gateway</h4>
-                        </div>
-
-                        <div class="product-card">
-                            <img src="https://hblimg.mmtcdn.com//content/hubble/img/panchmarhi/mmt/destination/m_Destination_Panchmarhi_l_464_696.jpg"
-                                class="product-thumb" alt="">
-                            <h5 class="img-text">TOP 8</h5>
-                            <h4 class="img-text-h5">Stays in & Around Delhi For a Weekend Gateway</h4>
-                        </div>
-
-
-                        <div class="product-card">
-                            <img src="https://hblimg.mmtcdn.com//content/hubble/img/dapoli/mmt/destination/m_Dapoli_l_703_937.jpg"
-                                class="product-thumb" alt="">
-                            <h5 class="img-text">TOP 8</h5>
-                            <h4 class="img-text-h5">Stays in & Around Delhi For a Weekend Gateway</h4>
-                        </div>
-
-
-                        <div class="product-card">
-                            <img src="https://hblimg.mmtcdn.com//content/hubble/img/vengurla/mmt/destination/m_destination_vengurla_landscape_l_400_640.jpg"
-                                class="product-thumb" alt="">
-                            <h5 class="img-text">TOP 8</h5>
-                            <h4 class="img-text-h5">Stays in & Around Delhi For a Weekend Gateway</h4>
-                        </div>
-
-
-                        <div class="product-card">
-                            <img src="https://hblimg.mmtcdn.com//content/hubble/img/dandeli/mmt/destination/m_Destination_Dandeli_l_536_804.jpg"
-                                class="product-thumb" alt="">
-                            <h5 class="img-text">TOP 8</h5>
-                            <h4 class="img-text-h5">Stays in & Around Delhi For a Weekend Gateway</h4>
-                        </div>
-
-
-                        <div class="product-card">
-                            <img src="https://hblimg.mmtcdn.com//content/hubble/img/destination/mmt/destination/m_destination_vagamon_landscape_l_400_640.jpg"
-                                class="product-thumb" alt="">
-                            <h5 class="img-text">TOP 8</h5>
-                            <h4 class="img-text-h5">Stays in & Around Delhi For a Weekend Gateway</h4>
-                        </div>
-
-
-                        <div class="product-card">
-                            <img src="https://hblimg.mmtcdn.com//content/hubble/img/tadoba/mmt/destination/m_Tadoba_l_587_880.jpg"
-                                class="product-thumb" alt="">
-                            <h5 class="img-text">TOP 8</h5>
-                            <h4 class="img-text-h5">Stays in & Around Delhi For a Weekend Gateway</h4>
-                        </div>
-                        <div class="product-card">
-                            <img src="https://hblimg.mmtcdn.com//content/hubble/img/guntur/mmt/destination/m_Guntur-landscape_l_400_640.jpg"
-                                class="product-thumb" alt="">
-                            <h5 class="img-text">TOP 8</h5>
-                            <h4 class="img-text-h5">Stays in & Around Delhi For a Weekend Gateway</h4>
-                        </div>
-                        <div class="product-card">
-                            <img src="https://hblimg.mmtcdn.com//content/hubble/img/Bhandardara/mmt/destination/m_Bhandardara_l_568_852.jpg"
-                                class="product-thumb" alt="">
-                            <h5 class="img-text">TOP 8</h5>
-                            <h4 class="img-text-h5">Stays in & Around Delhi For a Weekend Gateway</h4>
-                        </div>
-                        <div class="product-card">
-                            <img src="https://hblimg.mmtcdn.com//content/hubble/img/shoghi/mmt/destination/m_Shoghi_l_667_1000.jpg"
-                                class="product-thumb" alt="">
-                            <h5 class="img-text">TOP 8</h5>
-                            <h4 class="img-text-h5">Stays in & Around Delhi For a Weekend Gateway</h4>
+                                 <h5 class="img-text">TOP 8</h5>
+                                <h4 class="img-text-h5">Stays in & Around Delhi For a Weekend Gateway</h4>
                         </div>
                     </div>
 
@@ -971,5 +805,5 @@
 
 </html>
 
-<script src="./Scripts//index.js"></script>
+<script src="./Scripts//hotelSearch.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
