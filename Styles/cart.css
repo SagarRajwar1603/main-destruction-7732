@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Flight Section */
+
+.mid-navbar {
+  display: flex;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  background-color: white;
+}
+.siteLogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 70px;
+  margin-left: 50px;
+}
+.siteLogo img {
+  cursor: pointer;
+  width: 180px;
+  height: 50px;
+}
+.mid-nav-category {
+  background-color: white;
+  width: 100%;
+  border-radius: 7px;
+}
+.mid-nav-category ul {
+  display: flex;
+  text-align: center;
+}
+.mid-nav-category li {
+  text-decoration: none;
+  list-style: none;
+  line-height: 22px;
+  cursor: pointer;
+  margin-right: 15px;
+}
+.mid-nav-category li:hover {
+  color: #0288d1;
+}
+
+.mid-nav-category div {
+  padding: 10px;
+}
+.mid-nav-category i {
+  font-size: 25px;
+  color: #2c2c2c;
+}
+.mid-nav-category i:hover {
+  color: #0288d1;
+}
+.mid-nav-category p {
+  font-size: 14px;
+}
+
+/* main container */
+.main-container {
+  background: #b2ebf2;
+  background-repeat: no-repeat;
+  background-image: #b2ebf2;
+  background-size: 100% 150px;
+  height: 150px;
+  /* border: 2px solid red;  */
+}
+.section-container {
+  width: 90%;
+  margin: auto;
+  /* border: 2px solid red; */
+  position: relative;
+  top: 30%;
+}
+
+.review-text {
+  width: 100%;
+  /* border: 2px solid black; */
+}
+
+.hotel-section {
+  /* border: 2px solid black; */
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hotel-info {
+  background-color: white;
+  width: 70%;
+  border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.hotel-info > div:nth-child(1) {
+  padding: 20px;
+  border-bottom: 1px solid #948e8e;
+  font-weight: 800;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 17px;
+}
+.hotel-details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #948e8e;
+  padding: 0px 19px 0px 19px;
+}
+
+.hotel-img > img {
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.hotel-details h2 {
+  font-size: 26px;
+  line-height: 35px;
+}
+.hotel-details p {
+  font-size: 13px;
+  color: #5c5c5c;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.htl-info-wrapper {
+  /* border: 2px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #eeeeee;
+  padding: 8px;
+}
+.checking {
+  display: flex;
+  width: 50%;
+  align-items: center;
+  justify-content: space-evenly;
+  line-height: 26px;
+  margin-right: 23px;
+  background-color: #fafafa;
+}
+.book-det {
+  display: flex;
+  text-align: start;
+  width: 50%;
+  background-color: #fafafa;
+  padding: 16px;
+}
+.book-det h4 {
+  border-right: 1px solid black;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.price-section {
+  width: 26%;
+
+  position: absolute;
+  left: 75%;
+  bottom: 16%;
+  background-color: white;
+  padding: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  border-radius: 10px;
+}
+.price-section > div > h5 {
+  padding: 10px;
+  border-bottom: 1px solid #444;
+}
+
+.night-det div:nth-child(1) {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  line-height: 35px;
+  padding: 10px;
+}
+.night-det div:nth-child(2) {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #444;
+}
+.night-det div:nth-child(3) {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}

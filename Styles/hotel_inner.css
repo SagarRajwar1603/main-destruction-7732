@@ -1,63 +1,6 @@
-body{
-    margin: 0%;
-    padding: 0%;
-}
-.mid-navbar {
-    display: flex;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    position: relative;
-      top: 0;
-      z-index: 999;
-      background-color: white;
-  }
-  .siteLogo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 70px;
-    margin-left: 50px;
-  }
-  .siteLogo img {
-    cursor: pointer;
-    width: 180px;
-    height: 50px;
-  }
-  .mid-nav-category {
-    background-color: white;
-    width: 100%;
-    border-radius: 7px;
-  }
-  .mid-nav-category ul {
-    display: flex;
-    text-align: center;
-  }
-  .mid-nav-category li {
-    text-decoration: none;
-    list-style: none;
-    line-height: 22px;
-    cursor: pointer;
-    margin-right: 15px;
-  }
-  .mid-nav-category li:hover {
-    color: #0288d1;
-  }
-  
-  .mid-nav-category div {
-    padding: 10px;
-  }
-  .mid-nav-category i {
-    font-size: 25px;
-    color: #2c2c2c;
-  }
-  .mid-nav-category i:hover {
-    color: #0288d1;
-  }
-  .mid-nav-category p {
-    font-size: 14px;
-  }
-  
+
+
 .body{
-    margin-top: 3%;
     display: flex;
     flex-direction: row;
     margin-left: 11%;

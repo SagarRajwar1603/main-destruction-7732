@@ -1,64 +1,10 @@
 *{
     font-family: Lato;
-}
-body{
-    margin: 0;
+      margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
-.mid-navbar {
-    display: flex;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    position: relative;
-      top: 0;
-      z-index: 999;
-      background-color: white;
-  }
-  .siteLogo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 70px;
-    margin-left: 50px;
-  }
-  .siteLogo img {
-    cursor: pointer;
-    width: 180px;
-    height: 50px;
-  }
-  .mid-nav-category {
-    background-color: white;
-    width: 100%;
-    border-radius: 7px;
-  }
-  .mid-nav-category ul {
-    display: flex;
-    text-align: center;
-  }
-  .mid-nav-category li {
-    text-decoration: none;
-    list-style: none;
-    line-height: 22px;
-    cursor: pointer;
-    margin-right: 15px;
-  }
-  .mid-nav-category li:hover {
-    color: #0288d1;
-  }
-  
-  .mid-nav-category div {
-    padding: 10px;
-  }
-  .mid-nav-category i {
-    font-size: 25px;
-    color: #2c2c2c;
-  }
-  .mid-nav-category i:hover {
-    color: #0288d1;
-  }
-  .mid-nav-category p {
-    font-size: 14px;
-  }
-  
+
 .area {
     width: 55%;
     /* display: grid; */
@@ -194,7 +140,7 @@ ul{
 
 .main_container{
     display: flex;
-   width: 100%;
+   
     justify-content: space-around;
 }
 
@@ -205,15 +151,7 @@ ul{
     font-size: larger;
     font-weight: 900;
 }
-#rating{
-    color: white;
-    width: 10%;
-    font-weight: bold;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background-color: #065af3;
-    font-size: 15px;
-    padding: 2%;
-}
+
 .place{
     /* line-height: 22px; */
     font-size: 30px;
@@ -226,14 +164,11 @@ ul{
     display: flex;
     border: 2px solid;
     /* width: 64em; */
-    width: 90%;
-    border: 0.2px solid;
-    padding: 2.5%;
-    margin-bottom: 2%;
-    cursor: pointer;
-}
-#cardImpl{
     width: 100%;
+    border: 0.2px solid;
+    padding: 1em 1em;
+    margin: 1em 0em;
+    cursor: pointer;
 }
 .second_part:hover{
     background-color: #dfe9f6;
@@ -250,14 +185,8 @@ ul{
 }
 .fistr_part{
     margin: 1em 0em;
-    width: 20%;
-    padding-left: 3%;
 
 }
 .fistr_part >div{
     color: #4a4a4a;
-    margin-top: 2%;
-}
-.sec_part{
-    width: 80%;
 }
