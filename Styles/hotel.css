@@ -1,6 +1,10 @@
 *{
     font-family: Lato;
+      margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
 .area {
     width: 55%;
     /* display: grid; */
