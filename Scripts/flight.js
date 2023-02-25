@@ -1,7 +1,64 @@
 const fetchServer = "https://relieved-garment-toad.cyclic.app/flight";
  
 let flightDataContainer = document.getElementById("flightDataContainer");
+
+// filterByFlightName
+
+let indigo = document.getElementById("indigo");
+let vistara = document.getElementById("vistara");
+let airindia = document.getElementById("airindia");
+let spicejet = document.getElementById("spicejet");
+
+
 let flightFetchedData = [];
+
+indigo.addEventListener("click",()=>{
+   let filtered = flightFetchedData.filter((element)=>{
+    if(element.name=="IndiGo"){
+      return true;
+    }else{
+      return false;
+    }
+   }) 
+
+   displayFlightData(filtered)
+});
+
+vistara.addEventListener("click",()=>{
+  let filtered = flightFetchedData.filter((element)=>{
+   if(element.name=="Vistara"){
+     return true;
+   }else{
+     return false;
+   }
+  }) 
+
+  displayFlightData(filtered)
+});
+
+airindia.addEventListener("click",()=>{
+  let filtered = flightFetchedData.filter((element)=>{
+   if(element.name=="Air India"){
+     return true;
+   }else{
+     return false;
+   }
+  }) 
+
+  displayFlightData(filtered)
+});
+
+spicejet.addEventListener("click",()=>{
+  let filtered = flightFetchedData.filter((element)=>{
+   if(element.name=="SpiceJet"){
+     return true;
+   }else{
+     return false;
+   }
+  }) 
+
+  displayFlightData(filtered)
+});
 
 
 
