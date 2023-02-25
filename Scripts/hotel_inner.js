@@ -1,27 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hotel Inner</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700&family=Open+Sans:wght@300&family=Roboto+Flex:opsz,wght@8..144,300;8..144,400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./Styles/hotel_inner.css">
-</head>
-<body>
-    <div id="append">
+let data = JSON.parse(localStorage.getItem("item"));
+// console.log(data);
+let append = document.getElementById("append");
 
-
-
-
-        
-    <!-- <div class="body">
-    <img src="https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/202211121139447780-a97d6a3261a511ed9f770a58a9feac02.jpg?&output-quality=75&downsize=910:612&crop=910:612;4,0&output-format=jpg" alt="">
+Display(data);
+function Display(item){
+    console.log(item)
+    append.innerHTML="";
+    let dynamicDiv = `
+    <div class="body">
+    <img src="${item.innerImage[0]}" alt="">
     <div class="smallImageDiv">
-    <img src="https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/202211121139447780-aa4af4ac61a511ed869c0a58a9feac02.jpg?&output-quality=75&downsize=910:612&crop=910:612;10,0&output-format=jpg" alt="">
-    <img src="https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/202211121139447780-aa32a91a61a511edae030a58a9feac02.jpg?&output-quality=75&downsize=910:612&crop=910:612;19,0&output-format=jpg" alt="">
+    <img src="${item.innerImage[1]}" alt="">
+    <img src="${item.innerImage[2]}" alt="">
     </div>
     <div class="detailsDiv">
         <div class="priceDetailDiv">
@@ -47,7 +37,7 @@
         </div>
     </div>
 </div>
-<h1 id="nameHotelh1">Aiden by Best Western Vagator</h1>
+<h1 id="nameHotelh1">${item.hotelName}</h1>
 <div class="lowerNav">
 <div class="lowerNavlinks">
     <a href="#">OVERVIEW</a>
@@ -185,13 +175,7 @@
     <h3 class="detailHeaderh3">User Rating and Reviews</h3>
     <img src="./Images/hotel_inner_image/featureReview.PNG" alt="">
 </div>
-</div> -->
-
-
-
-
-
 </div>
-</body>
-<script src="./Scripts/hotel_inner.js"></script>
-</html>
+    `
+append.innerHTML += dynamicDiv;
+}
