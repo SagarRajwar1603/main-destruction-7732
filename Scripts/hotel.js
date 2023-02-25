@@ -1,10 +1,13 @@
 let cardBody = document.getElementById("cardImpl");
-
+let TempData = [];
 fetch(`https://hotel-api-test.onrender.com/hotel`)
 .then(res=>res.json())
 .then((data)=>{
-    console.log(data.delhi)
+    // console.log(data.delhi)
+    TempData = [...data.delhi];
+    console.log(TempData)
     Display(data.delhi)
+    // console.log(data.delhi)
 })
 .catch((err)=>{
     console.log(err)
@@ -13,8 +16,9 @@ function Display(data)
 {
     cardBody.innerHTML = "";
     let cardItems = data.map((item)=>{
+        // console.log(item)
         return `
-        <div class="second_part"  onClick="goToHotelInner(${item})">    
+        <div class="second_part" onClick="goToHotelInner(${item.id})"> 
             <div>
                <img src="${item.innerImage}" alt="">
            </div>
@@ -43,8 +47,13 @@ function Display(data)
     
 }
 
-function goToHotelInner(item){
-    console.log(item)
-    // localStorage.setItem("hotelInnerData",something );
-    // window.location.href = "../hotel_inner.html"
+function goToHotelInner(id) {
+    let localData = TempData.find((item)=>{
+        if(item.id==id)
+        {
+            return item;
+        }
+    })
+    localStorage.setItem("item",JSON.stringify(localData));
+    window.location.href="../hotel_inner.html"
 }
