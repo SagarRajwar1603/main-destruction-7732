@@ -67,7 +67,9 @@
   background-image: linear-gradient(to bottom, #051322, #15457c);
   background-size: 100% 600px;
   height: 250px;
-  /* position: relative; */
+  /*position: sticky;
+  top:0;
+  z-index: 999;*/
   display: flex;
   justify-content: center;
   align-items: center;
@@ -119,13 +121,17 @@
   background-color: rgba(255, 255, 255, 0.1);
   color: #fff;
   border: none;
+  min-width: 120px;
+  min-height: 30px;
+  padding: 4px 9px;
+  font-size: 14px;
 }
 .innerbox {
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 4px;
   margin-right: 5px;
-  width: 160px;
-  min-height: 30px;
+  min-width: 160px;
+  min-height: 40px;
   flex-direction: column;
   display: flex;
 }
@@ -142,7 +148,7 @@
 }
 .fa-right-left {
   color: white;
-  
+  padding:4px 9px;
 }
 
 
@@ -224,10 +230,12 @@
   display: flex;
   flex-direction: row;
   width: 100%;
-  color: antiquewhite;
+  /*color: antiquewhite;*/
   gap: 10px;
   justify-content: space-around;
   margin: 0 auto;
+  padding: 20px 0;
+  max-width: 1200px;
 }
 
 .left {
@@ -254,7 +262,7 @@
   display: flex;
   flex-direction: column;
   font-size: 15px;
-  gap:3px;
+  gap:20px;
   
 }
 .filter-container > .airlines {
@@ -264,16 +272,124 @@
   display: flex;
   flex-direction: column;
   font-size: 15px;
-  gap:3px;
+  gap:20px;
   
 }
+
+
 
 
 /* fetchedData */
 
 #flightDataContainer{
-  /* border: 2px solid red; */
+  /*border: 2px solid red; */
  background-color: white;
+}
+ .heading{
+  color: rgb(10, 62, 73);
+ 
+  margin-bottom: 20px;
+  font-size: 26px;
+  line-height: 24px;
+  font-weight: 600;
+}
+.bannersContainer{
+  width:100%;
+  margin:10px auto;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  padding: 12px;
+  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 15%);
+  background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(232, 253, 233));
+}
+.bannersCard{
+ width: 34px;
+ height: 34px;
+}
+
+.bannersCard>img{
+  width: 34px;
+  height: 34px;
+}
+
+.withBtnSection{
+  display: flex;
+  flex-direction: column;
+  gap: 5px ;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.bannerHeading{
+  font-size: 13px;
+}
+.bannerContent{
+  font-size: 11px;
+}
+
+.bannerContent>span{
+  color: #008cff;
+}
+.contentWithIcon{
+  display: flex;
+  align-items: center;
+}
+.dateContainer {
+  display: flex;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+  background: #fff;
+  box-shadow: 0 4px 7px 0 rgb(138 107 118 / 20%);
+  border-radius: 2px;
+  margin: 5px 0;
+}
+.arrowContainer {
+  border-right: 1px solid #eaeaea;
+  box-shadow: 0 4px 7px 0 rgb(138 107 118 / 20%);
+  border-radius: 2px;
+  background: #fff;
+  width: 34.7px;
+  height: 71px;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.arrowContainer>img{
+  width: 29px;
+}
+.dateDisplayContainer {
+  display: flex;
+}
+.dateDisplayItems {
+  padding: 13px 0;
+  width: 102px;
+  display: flex;
+  flex-direction: column;
+  border-left: 1px solid #eaeaea;
+  box-sizing: border-box;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.dateDisplayItems > div:nth-child(1) {
+  font-size: 12px;
+}
+
+.dateDisplayItems > div:nth-child(2) {
+  color: rgb(22, 190, 72);
+  font-size: 12px;
+}
+
+.dateDisplayItems:hover {
+  color: rgb(0, 145, 255);
+  border-bottom: 3px solid #0091ff;
+}
+
+.dateDisplayItems:hover > div:nth-child(2) {
+  color: rgb(0, 145, 255);
 }
 .mainFlightDiv{
     display: flex;
@@ -285,6 +401,7 @@
     margin-bottom:30px ; 
     font-family: sans-serif;
 }
+
 .mainFlightDiv p{
     margin-top: 10px;
     color: #37474F;
