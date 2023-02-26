@@ -37,27 +37,35 @@
     border-radius: 10px;
     padding-left: 3%;
     font-family: Lato;
+    padding-top: 5%;
 }
 .priceDetailDiv>p{
     font-size: 12px;
 }
 #bookToCart{
-    margin-left: 5%;
+    margin-left: 20%;
+    margin-top: 17%;
     border: none;
     color: white;
     font-family: Lato;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 20px;
     background: rgb(108,211,238);
     background: linear-gradient(90deg, rgba(108,211,238,1) 7%, rgba(0,87,255,1) 97%);
     border-radius: 20px;
-    padding: 2%;
+    padding: 3%;
     cursor: pointer;
 }
 .viewRoomMapReview{
     font-family: Lato;
     font-weight: bolder;
     color: #008cff;
+    text-align: center;
+}
+.viewRoomMapReview:nth-child(1)
+{
+    margin-left: 20%;
+    margin-top: 10%;
 }
 .locationRatingDiv{
     width: 100%;

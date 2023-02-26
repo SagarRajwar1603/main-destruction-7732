@@ -151,4 +151,3 @@ priceFilter.addEventListener("change",()=>{
     }
     
 })
-

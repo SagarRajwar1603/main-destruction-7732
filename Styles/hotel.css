@@ -262,5 +262,8 @@ ul{
     background-color: #E0F7FA;
 }
 
-
-
+#select_price{
+    border: none;
+    background: transparent;
+    font-weight: 600;
+  }
