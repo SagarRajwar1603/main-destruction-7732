@@ -1,6 +1,17 @@
 let data = JSON.parse(localStorage.getItem("item"));
 console.log(data);
 let append = document.getElementById("append");
+let TempData = [];
+fetch(`https://hotel-api-test.onrender.com/hotel`)
+.then(res=>res.json())
+.then((data)=>{
+    TempData = [...data];
+    // console.log(TempData)
+    // filterByCity(data,city);
+})
+.catch((err)=>{
+    console.log(err)
+})
 
 Display(data);
 function Display(item){
@@ -20,8 +31,8 @@ function Display(item){
             <span>Rs ${item.price}</span>
             <p>+ gst,taxes and fees</p>
             <hr>
-            <span class="viewRoomMapReview">VIEW OTHER ROOMS</span>
-            <button id="bookToCart">BOOK THIS NOW</button>
+            <span class="viewRoomMapReview">VIEW OTHER ROOMS</span><br>
+            <button id="bookToCart" onclick="addTocart(${item.id})">BOOK THIS NOW</button>
         </div>
         <div class="locationRatingDiv">
             <div>
@@ -178,4 +189,17 @@ function Display(item){
 </div>
     `
 append.innerHTML += dynamicDiv;
+}
+
+
+function addTocart(id){
+    let localData = TempData.find((item)=>{
+        if(item.id==id)
+        {
+            return item;
+        }
+    })
+    // console.log(localData)
+    localStorage.setItem("cartItem",JSON.stringify(localData));
+    window.location.href="./Pages/cart.html"
 }

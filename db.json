@@ -402,13 +402,8 @@
   "innerImage":["https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/201808161650127422-181ffbf263f111ec8a220a58a9feac02.jpg?&output-quality=75&downsize=910:612&output-format=jpg","https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/201808161650127422-184ef9e8687e11eca9230a58a9feac02.jpg?&output-quality=75&downsize=910:612&output-format=jpg","https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/201808161650127422-ca48e8a8687d11ec8f710a58a9feac02.jpg?&output-quality=75&downsize=910:612&crop=910:612;16,0&output-format=jpg"]
 }
 ]
-}
-
-
-
-
-{
-  "flight": [
+,
+"flight": [
       {
         "id":1,
         "name": "IndiGo",
@@ -633,5 +628,5 @@
     "users":[{
       "name":"Sagar Rajwar",
       "age":"23"
-      }] 
+}]
 }
