@@ -1,3 +1,4 @@
+
 {
   "hotel":[
   {
@@ -401,4 +402,236 @@
   "innerImage":["https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/201808161650127422-181ffbf263f111ec8a220a58a9feac02.jpg?&output-quality=75&downsize=910:612&output-format=jpg","https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/201808161650127422-184ef9e8687e11eca9230a58a9feac02.jpg?&output-quality=75&downsize=910:612&output-format=jpg","https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/201808161650127422-ca48e8a8687d11ec8f710a58a9feac02.jpg?&output-quality=75&downsize=910:612&crop=910:612;16,0&output-format=jpg"]
 }
 ]
+}
+
+
+
+
+{
+  "flight": [
+      {
+        "id":1,
+        "name": "IndiGo",
+        "image": "https://media.glassdoor.com/sql/2006190/indigo-airlines-squarelogo-1585307627941.png",
+        "departureTime": "23:15",
+        "departureLocation": "Kolkata",
+        "timeTaken": "09 h 45 m",
+        "arrivalTime": "09:00",
+        "arrivalLocation": "Port Blair",
+        "ticketPrice": "₹ 25,355"
+      },
+      {
+        "id":2,
+        "name": "IndiGo",
+        "image": "https://media.glassdoor.com/sql/2006190/indigo-airlines-squarelogo-1585307627941.png",
+        "departureTime": "21:15",
+        "departureLocation": "Kolkata",
+        "timeTaken": "11 h 45 m",
+        "arrivalTime": "09:00",
+        "arrivalLocation": "Port Blair",
+        "ticketPrice": "₹ 25,355"
+      },
+      {
+        "id":3,
+        "name": "SpiceJet",
+        "image": "https://play-lh.googleusercontent.com/GpBflSe4aTVUKcoM7xVVk0gVMEETdYF3Y_r5cNuwKDFRjnbCdpxW9m-GtyzFueCR2ODK",
+        "departureTime": "08:30",
+        "departureLocation": "Kolkata",
+        "timeTaken": "12 h 10 m",
+        "arrivalTime": "10:40",
+        "arrivalLocation": "Port Blair",
+        "ticketPrice": "₹ 12,860"
+      },
+      {
+        "id":4,
+        "name": "SpiceJet",
+        "image": "https://play-lh.googleusercontent.com/GpBflSe4aTVUKcoM7xVVk0gVMEETdYF3Y_r5cNuwKDFRjnbCdpxW9m-GtyzFueCR2ODK",
+        "departureTime": "20:00",
+        "departureLocation": "Kolkata",
+        "timeTaken": "14 h 20 m",
+        "arrivalTime": "10:20",
+        "arrivalLocation": "Port Blair",
+        "ticketPrice": "₹ 28,557"
+      },
+      {
+        "id":5,
+        "name": "Air India",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk16y52bT3scvV4btmQqH2ucA-kbVXhNZ0sA&usqp=CAU",
+        "departureTime": "15:25",
+        "departureLocation": "Kolkata",
+        "timeTaken": "18 h 55 m",
+        "arrivalTime": "10:20",
+        "arrivalLocation": "Port Blair",
+        "ticketPrice": "₹ 28,557"
+      },
+      {
+        "id":6,
+        "name": "Air India",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk16y52bT3scvV4btmQqH2ucA-kbVXhNZ0sA&usqp=CAU",
+        "departureTime": "17:25",
+        "departureLocation": "Kolkata",
+        "timeTaken": "13 h 55 m",
+        "arrivalTime": "07:20",
+        "arrivalLocation": "Port Blair",
+        "ticketPrice": "₹ 31,707"
+      },
+      {
+        "id":7,
+        "name": "Air India",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk16y52bT3scvV4btmQqH2ucA-kbVXhNZ0sA&usqp=CAU",
+        "departureTime": "16:15",
+        "departureLocation": "Kolkata",
+        "timeTaken": "15 h 05 m",
+        "arrivalTime": "07:20",
+        "arrivalLocation": "Port Blair",
+        "ticketPrice": "₹ 32,652"
+      },
+      {
+        "id":8,
+        "name": "Air India",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk16y52bT3scvV4btmQqH2ucA-kbVXhNZ0sA&usqp=CAU",
+        "departureTime": "15:25",
+        "departureLocation": "Kolkata",
+        "timeTaken": "15 h 55 m",
+        "arrivalTime": "07:20",
+        "arrivalLocation": "Port Blair",
+        "ticketPrice": "₹ 32,757"
+      },
+      {
+        "id":9,
+        "name": "Air India",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk16y52bT3scvV4btmQqH2ucA-kbVXhNZ0sA&usqp=CAU",
+        "departureTime": "17:25",
+        "departureLocation": "Kolkata",
+        "timeTaken": "13 h 55 m",
+        "arrivalTime": "07:20",
+        "arrivalLocation": "Port Blair",
+        "ticketPrice": "₹ 36,117"
+      },
+      {
+        "id":10,
+        "name": "Air India",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk16y52bT3scvV4btmQqH2ucA-kbVXhNZ0sA&usqp=CAU",
+        "departureTime": "16:15",
+        "departureLocation": "Kolkata",
+        "timeTaken": "18 h 05 m",
+        "arrivalTime": "10:20",
+        "arrivalLocation": "Port Blair",
+        "ticketPrice": "₹ 50,397"
+      },
+      {
+        "id":11,
+        "name": "IndiGo",
+        "image": "https://media.glassdoor.com/sql/2006190/indigo-airlines-squarelogo-1585307627941.png",
+        "departureTime": "23:15",
+        "departureLocation": "Kolkata",
+        "timeTaken": "09 h 45 m",
+        "arrivalTime": "09:00",
+        "arrivalLocation": "Port Blair",
+        "ticketPrice": "₹ 25,355"
+      },
+      {
+        "id":12,
+        "name": "IndiGo",
+        "image": "https://media.glassdoor.com/sql/2006190/indigo-airlines-squarelogo-1585307627941.png",
+        "departureTime": "21:15",
+        "departureLocation": "Kolkata",
+        "timeTaken": "11 h 45 m",
+        "arrivalTime": "09:00",
+        "arrivalLocation": "Port Blair",
+        "ticketPrice": "₹ 25,355"
+      },
+      {
+        "id":13,
+        "name": "SpiceJet",
+        "image": "https://play-lh.googleusercontent.com/GpBflSe4aTVUKcoM7xVVk0gVMEETdYF3Y_r5cNuwKDFRjnbCdpxW9m-GtyzFueCR2ODK",
+        "departureTime": "08:30",
+        "departureLocation": "Kolkata",
+        "timeTaken": "12 h 10 m",
+        "arrivalTime": "10:40",
+        "arrivalLocation": "Port Blair",
+        "ticketPrice": "₹ 12,860"
+      },
+      {
+        "id":14,
+        "name": "SpiceJet",
+        "image": "https://play-lh.googleusercontent.com/GpBflSe4aTVUKcoM7xVVk0gVMEETdYF3Y_r5cNuwKDFRjnbCdpxW9m-GtyzFueCR2ODK",
+        "departureTime": "20:00",
+        "departureLocation": "Kolkata",
+        "timeTaken": "14 h 20 m",
+        "arrivalTime": "10:20",
+        "arrivalLocation": "Port Blair",
+        "ticketPrice": "₹ 28,557"
+      },
+      {
+        "id":15,
+        "name": "Vistara",
+        "image": "https://www.dinesh.com/images/stories/logo/airline-logos/vistara_logo.jpg",
+        "departureTime": "15:25",
+        "departureLocation": "Kolkata",
+        "timeTaken": "18 h 55 m",
+        "arrivalTime": "10:20",
+        "arrivalLocation": "Port Blair",
+        "ticketPrice": "₹ 28,557"
+      },
+      {
+        "id":16,
+        "name": "Vistara",
+        "image": "https://www.dinesh.com/images/stories/logo/airline-logos/vistara_logo.jpg",
+        "departureTime": "17:25",
+        "departureLocation": "Kolkata",
+        "timeTaken": "13 h 55 m",
+        "arrivalTime": "07:20",
+        "arrivalLocation": "Port Blair",
+        "ticketPrice": "₹ 31,707"
+      },
+      {
+        "id":17,
+        "name": "Vistara",
+        "image": "https://www.dinesh.com/images/stories/logo/airline-logos/vistara_logo.jpg",
+        "departureTime": "16:15",
+        "departureLocation": "Kolkata",
+        "timeTaken": "15 h 05 m",
+        "arrivalTime": "07:20",
+        "arrivalLocation": "Port Blair",
+        "ticketPrice": "₹ 32,652"
+      },
+      {
+        "id":18,
+        "name": "Vistara",
+        "image": "https://www.dinesh.com/images/stories/logo/airline-logos/vistara_logo.jpg",
+        "departureTime": "15:25",
+        "departureLocation": "Kolkata",
+        "timeTaken": "15 h 55 m",
+        "arrivalTime": "07:20",
+        "arrivalLocation": "Port Blair",
+        "ticketPrice": "₹ 32,757"
+      },
+      {
+        "id":19,
+        "name": "Vistara",
+        "image": "https://www.dinesh.com/images/stories/logo/airline-logos/vistara_logo.jpg",
+        "departureTime": "17:25",
+        "departureLocation": "Kolkata",
+        "timeTaken": "13 h 55 m",
+        "arrivalTime": "07:20",
+        "arrivalLocation": "Port Blair",
+        "ticketPrice": "₹ 36,117"
+      },
+      {
+        "id":20,
+        "name": "Vistara",
+        "image": "https://www.dinesh.com/images/stories/logo/airline-logos/vistara_logo.jpg",
+        "departureTime": "16:15",
+        "departureLocation": "Kolkata",
+        "timeTaken": "18 h 05 m",
+        "arrivalTime": "10:20",
+        "arrivalLocation": "Port Blair",
+        "ticketPrice": "₹ 50,397"
+      }
+    ],
+    "users":[{
+      "name":"Sagar Rajwar",
+      "age":"23"
+      }] 
 }
