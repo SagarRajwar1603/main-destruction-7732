@@ -8,9 +8,9 @@ fetch(`https://hotel-api-test.onrender.com/hotel`)
 .then((data)=>{
     // console.log(data.delhi)
     TempData = data;
-    // console.log(TempData)
-    TempArray = [...data[city]]
-    Display(data[city],city)
+    console.log(TempData.delhi);
+    // TempArray = [...data[city]]
+    // Display(data[city],city)
     // console.log(data.delhi)
 })
 .catch((err)=>{
