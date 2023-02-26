@@ -17,6 +17,58 @@ let swapDep = document.getElementById("swapDep");
 
 let swapAri = document.getElementById("swapAri");
 
+let formEl = document.querySelector("form");
+let loginInput = document.getElementById("loginInput");
+
+// form validation
+
+// let newData =
+
+window.addEventListener("load", () => {
+  if (localStorage.getItem("user")) {
+    loginPopUpBtn.innerText = localStorage.getItem("user");
+  } else {
+    loginPopUpBtn.innerText = loginPopUpBtn.innerText;
+  }
+});
+
+formEl.addEventListener("submit", (e) => {
+  e.preventDefault();
+  let data = loginInput.value;
+
+  localStorage.setItem("user", data);
+  loginPopUpBtn.innerText = localStorage.getItem("user");
+  validateInput();
+});
+
+const setError = (element, message) => {
+  const inputControl = element.parentElement;
+  const errorDisplay = inputControl.querySelector(".error");
+
+  errorDisplay.innerText = message;
+  inputControl.classList.add("error");
+  inputControl.classList.remove("success");
+};
+
+const setSuccess = (element) => {
+  const inputControl = element.parentElement;
+  const errorDisplay = inputControl.querySelector(".error");
+
+  errorDisplay.innerText = "";
+  inputControl.classList.add("success");
+  inputControl.classList.remove("error");
+};
+
+const validateInput = () => {
+  const inputLogin = loginInput.value.trim();
+
+  if (inputLogin == "") {
+    setError(loginInput, "Please enter email/number");
+  } else {
+    setSuccess(loginInput);
+  }
+};
+
 registerBtn.addEventListener("click", () => {
   registerForm.style.left = "22px";
   loginForm.style.left = "-450px";
@@ -39,7 +91,7 @@ loginBtn.addEventListener("click", () => {
   registerBtn.style.border = "2px solid black";
 });
 
-// // popup login button function
+// popup login button function
 
 loginPopUpBtn.addEventListener("click", () => {
   popUp.style.top = "50%";
@@ -51,34 +103,36 @@ closePopup.addEventListener("click", () => {
   popUp.style.visibility = "hidden";
 });
 
+let swapDepDetail = document.getElementById("swapDet");
+let swapAriDetails = document.getElementById("swapADri");
+swapBtn.addEventListener("click", () => {
+  let x = swapDep.innerText;
+  let depDet = swapDepDetail.innerText;
 
+  swapDep.innerText = swapAri.innerText;
+  swapAri.innerText = x;
 
-// // 
+  swapDepDetail.innerText = swapAriDetails.innerText;
+  swapAriDetails.innerText = depDet;
+});
 
-// // slidingImg
-// // slidingImg
-// const productContainers = [...document.querySelectorAll('.product-container')];
-// const nxtBtn = [...document.querySelectorAll('.nxt-btn')];
-// const preBtn = [...document.querySelectorAll('.pre-btn')];
+//
 
+// slidingImg
+// slidingImg
+const productContainers = [...document.querySelectorAll(".product-container")];
+const nxtBtn = [...document.querySelectorAll(".nxt-btn")];
+const preBtn = [...document.querySelectorAll(".pre-btn")];
 
-// productContainers.forEach((item, i) => {
-//     let containerDimensions = item.getBoundingClientRect();
-//     let containerWidth = containerDimensions.width;
+productContainers.forEach((item, i) => {
+  let containerDimensions = item.getBoundingClientRect();
+  let containerWidth = containerDimensions.width;
 
-//     nxtBtn[i].addEventListener('click', () => {
-//         item.scrollLeft += containerWidth;
-//     })
+  nxtBtn[i].addEventListener("click", () => {
+    item.scrollLeft += containerWidth;
+  });
 
-//     preBtn[i].addEventListener('click', () => {
-//         item.scrollLeft -= containerWidth;
-//     })
-// })
-
-let selector = document.getElementById("selTag");
-let searchhotelBtn = document.getElementById("searchPress")
-searchhotelBtn.addEventListener("click",()=>{
-    localStorage.setItem("cityHotel",selector.value);
-    window.location.href = "../Pages/hotel.html";
-})
-
+  preBtn[i].addEventListener("click", () => {
+    item.scrollLeft -= containerWidth;
+  });
+});

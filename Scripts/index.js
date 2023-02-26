@@ -22,53 +22,24 @@ let loginInput = document.getElementById("loginInput");
 
 // form validation
 
+// let newData =
 
-// let newData = 
-
-window.addEventListener("load",()=>{
-  if(localStorage.getItem("user")){
+window.addEventListener("load", () => {
+  if (localStorage.getItem("user")) {
     loginPopUpBtn.innerText = localStorage.getItem("user");
-  }else{
-     loginPopUpBtn.innerText = loginPopUpBtn.innerText
+  } else {
+    loginPopUpBtn.innerText = loginPopUpBtn.innerText;
   }
-})
+});
 
 formEl.addEventListener("submit", (e) => {
   e.preventDefault();
- let data = loginInput.value;
+  let data = loginInput.value;
 
   localStorage.setItem("user", data);
   loginPopUpBtn.innerText = localStorage.getItem("user");
   validateInput();
 });
-
-const setError = (element, message) => {
-  const inputControl = element.parentElement;
-  const errorDisplay = inputControl.querySelector(".error");
-
-  errorDisplay.innerText = message;
-  inputControl.classList.add("error");
-  inputControl.classList.remove("success");
-};
-
-const setSuccess = (element) => {
-  const inputControl = element.parentElement;
-  const errorDisplay = inputControl.querySelector(".error");
-
-  errorDisplay.innerText = "";
-  inputControl.classList.add("success");
-  inputControl.classList.remove("error");
-};
-
-const validateInput = () => {
-  const inputLogin = loginInput.value.trim();
-
-  if (inputLogin == "") {
-    setError(loginInput, "Please enter email/number");
-  } else {
-    setSuccess(loginInput);
-  }
-};
 
 registerBtn.addEventListener("click", () => {
   registerForm.style.left = "22px";
@@ -95,6 +66,11 @@ loginBtn.addEventListener("click", () => {
 // popup login button function
 
 loginPopUpBtn.addEventListener("click", () => {
+  if (loginPopUpBtn.innerText != "Login or create account") {
+    console.log("im clcik")
+    popUp.style.display = "none";
+
+  }
   popUp.style.top = "50%";
   popUp.style.transform = "translate(-50%, -50%)scale(1)";
   popUp.style.visibility = "visible";

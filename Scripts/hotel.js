@@ -8,9 +8,18 @@ let city = localStorage.getItem("cityHotel")
 fetch(`https://hotel-api-test.onrender.com/hotel`)
 .then(res=>res.json())
 .then((data)=>{
+
+    // console.log(data.delhi)
+    TempData = data;
+    console.log(TempData.delhi);
+    // TempArray = [...data[city]]
+    // Display(data[city],city)
+    // console.log(data.delhi)
+
     TempData = [...data];
     // console.log(TempData)
     filterByCity(data,city);
+
 })
 .catch((err)=>{
     console.log(err)
