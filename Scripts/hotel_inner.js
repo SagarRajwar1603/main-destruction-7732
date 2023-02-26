@@ -1,5 +1,5 @@
 let data = JSON.parse(localStorage.getItem("item"));
-// console.log(data);
+console.log(data);
 let append = document.getElementById("append");
 
 Display(data);
