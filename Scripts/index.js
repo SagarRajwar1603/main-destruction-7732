@@ -22,6 +22,8 @@ let loginInput = document.getElementById("loginInput");
 
 let adminBtn = document.getElementById("admin-btn");
 
+let searchFlight = document.getElementById("search-btn");
+
 // form validation
 
 // let newData =
@@ -121,3 +123,7 @@ adminBtn.addEventListener("click", () => {
     window.location.assign("hotelSearch.html");
   }
 });
+
+searchFlight.addEventListener("click",()=>{
+  window.location.assign("./Pages/flight.html");
+})
