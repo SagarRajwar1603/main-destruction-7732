@@ -105,6 +105,7 @@ function goToHotelInner(id) {
     window.location.href="../hotel_inner.html"
 }
 
+
 // console.log(priceFilter)
 priceFilter.addEventListener("change",()=>{
     
@@ -145,3 +146,4 @@ priceFilter.addEventListener("change",()=>{
     }
     
 })
+

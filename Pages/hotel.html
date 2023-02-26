@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../Styles/hotel.css">
+    <link rel="stylesheet" href="../Styles/flight.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700&family=Open+Sans:wght@300&family=Roboto+Flex:opsz,wght@8..144,300;8..144,400&display=swap" rel="stylesheet">
@@ -18,7 +19,7 @@
 <body>
     <div class="mid-navbar">
         <div class="siteLogo">
-          <img src="../Images/logo white.jpeg" alt="">
+            <a href="../index.html"> <img src="../Images/logo white.jpeg" alt=""></a>
         </div>
         <div class="mid-nav-category">
           <ul>
@@ -99,7 +100,7 @@
     <div class="con">
         <div class="area">
             <div class="child_div">
-            <span id="col">CITY,AREA or ROPERTY</span>
+            <span id="col">CITY,AREA or PROPERTY</span>
                     <select name="" id="sel" >
                         <option value="">Select A City</option>
                         <option value="goa">Goa</option>
@@ -128,7 +129,7 @@
     <div class="cont">
    <ul class="ul">
     <li>
-        <a href=""  id="line">Home</a>
+        <a href="../index.html"  id="line">Home</a>
     </li>
     <li>
         <a class="lii">Hotels and more</a>
@@ -155,9 +156,11 @@
     </select>
 <div class="card">
    
+<div>
     <button class="img_Btn"><img src="https://imgak.mmtcdn.com/pwa_v3/pwa_hotel_assets/sprite/view-map-new.png" alt=""
         class="imge"></button>
  
+</div>
 <div>
 <input type="text" name="" id="in_card" placeholder="Search location or property">
 </div>
@@ -167,17 +170,21 @@
     <div class="main_container">
       
     <div class="fistr_part">
-       <h3>Suggested For You</h3>
-     <div>  <label><input class="todo-item-checkbox" data-id="" type="checkbox" >5 Star Properties</label></div>
-     <div>  <label><input class="todo-item-checkbox" data-id="" type="checkbox" >Unmarried couples Allowed</label></div>
-     <div>  <label><input class="todo-item-checkbox" data-id="" type="checkbox" >Breakfast Included</label></div>
-     <div>  <label><input class="todo-item-checkbox" data-id="" type="checkbox" >Free Cancellation</label></div>
-     <div>  <label><input class="todo-item-checkbox" data-id="" type="checkbox" >New Delhi Railway station,Delhi</label></div>
+      <div class="firstFilter">
+        <h3>Suggested For You</h3>
+        <div>  <label><input class="todo-item-checkbox" data-id="" type="checkbox" >  5 Star Properties </label></div>
+        <div>  <label><input class="todo-item-checkbox" data-id="" type="checkbox" >  Unmarried couples Allowed</label></div>
+        <div>  <label><input class="todo-item-checkbox" data-id="" type="checkbox" >  Breakfast Included</label></div>
+        <div>  <label><input class="todo-item-checkbox" data-id="" type="checkbox" >  Free Cancellation</label></div>
+        <div>  <label><input class="todo-item-checkbox" data-id="" type="checkbox" >  New Delhi Railway station,Delhi</label></div>
+      </div>
+       <div class="secondFilter">
         <h3> Price Per Night</h3>
-        <div>  <label><input class="todo-item-checkbox" data-id="" type="checkbox" >₹ 0 - ₹ 1500</label></div>
-        <div>  <label><input class="todo-item-checkbox" data-id="" type="checkbox" >₹ 1500 - ₹ 3000</label></div>
-        <div>  <label><input class="todo-item-checkbox" data-id="" type="checkbox" >₹ 3000 - ₹ 6500</label></div>
-        <div>  <label><input class="todo-item-checkbox" data-id="" type="checkbox" >₹ 6500 - ₹ 8000</label></div>
+        <div>  <label><input class="todo-item-checkbox" data-id="" type="checkbox" >  ₹ 0 - ₹ 1500</label></div>
+        <div>  <label><input class="todo-item-checkbox" data-id="" type="checkbox" >  ₹ 1500 - ₹ 3000</label></div>
+        <div>  <label><input class="todo-item-checkbox" data-id="" type="checkbox" >  ₹ 3000 - ₹ 6500</label></div>
+        <div>  <label><input class="todo-item-checkbox" data-id="" type="checkbox" >  ₹ 6500 - ₹ 8000</label></div>
+       </div>
     </div>
     <div class="sec_part">
         
@@ -193,3 +200,4 @@
 </body>
 <script src="../Scripts/hotel.js"></script>
 </html>
+
