@@ -1,17 +1,16 @@
 let cardBody = document.getElementById("cardImpl");
-let TempData ;
+let TempData=[] ;
 let TempArray = [];
+let priceFilter = document.getElementById("seclect_trip");
+
 let city = localStorage.getItem("cityHotel")
-console.log(city)
+// console.log(city)
 fetch(`https://hotel-api-test.onrender.com/hotel`)
 .then(res=>res.json())
 .then((data)=>{
-    // console.log(data.delhi)
-    TempData = data;
+    TempData = [...data];
     // console.log(TempData)
-    TempArray = [...data[city]]
-    Display(data[city],city)
-    // console.log(data.delhi)
+    filterByCity(data,city);
 })
 .catch((err)=>{
     console.log(err)
@@ -21,25 +20,42 @@ let select = document.getElementById("sel");
 select.addEventListener("change",()=>{
     if(select.value=="goa")
     {
-        TempArray = [...TempData.goa];
-        Display(TempData.goa,"Goa")
+        localStorage.setItem("cityHotel",select.value);
+        filterByCity(TempData,"goa")
     }
     else if(select.value=="mumbai")
     {
-        TempArray = [...TempData.mumbai];
-        Display(TempData.mumbai,"Mumbai")
+        localStorage.setItem("cityHotel",select.value);
+        filterByCity(TempData,"mumbai")
     }
     else if(select.value=="guwahati")
     {
-        TempArray = [...TempData.guwahati];
-        Display(TempData.guwahati,"Guwahati")
+        localStorage.setItem("cityHotel",select.value);
+        filterByCity(TempData,"guwahati")
     }
     else if(select.value=="delhi")
     {
-        TempArray = [...TempData.delhi];
-        Display(TempData.delhi,"Delhi")
+        localStorage.setItem("cityHotel",select.value);
+        filterByCity(TempData,"delhi")
     }
 })
+
+function filterByCity(data,city)
+{
+    let filteredData = data.filter((item)=>{
+        if(item.city==city)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    })
+    Display(filteredData,city);
+    // console.log(filteredData)
+
+}
 
 
 function Display(data,city)
@@ -77,16 +93,57 @@ function Display(data,city)
 }
 
 function goToHotelInner(id) {
-    // console.log(id)
-    let localData = TempArray.find((item)=>{
+    console.log(id)
+    let localData = TempData.find((item)=>{
         if(item.id==id)
         {
             return item;
         }
     })
-    console.log(localData)
+    // console.log(localData)
     localStorage.setItem("item",JSON.stringify(localData));
     window.location.href="../hotel_inner.html"
 }
 
+
+// console.log(priceFilter)
+priceFilter.addEventListener("change",()=>{
+    
+    console.log("changing");
+    if(priceFilter.value=="high")
+    {
+    let city = localStorage.getItem("cityHotel")
+    let sortedData = TempData.sort((a,b)=>{
+        if(Number(a.price)>Number(b.price))
+        {
+            return 1;
+        }
+        else if(Number(a.price)<Number(b.price))
+        {
+            return -1
+        }
+        return 0;
+    });
+    // console.log(sortedData)
+    Display(sortedData,city);
+    }
+    else if(priceFilter.value=="low")
+    {
+    let city = localStorage.getItem("cityHotel")
+    let sortedData = TempData.sort((a,b)=>{
+        if(Number(a.price)>Number(b.price))
+        {
+            return -1;
+        }
+        else if(Number(a.price)<Number(b.price))
+        {
+            return 1
+        }
+        return 0;
+    });
+    // console.log(sortedData)
+    Display(sortedData,city);
+    }
+    
+})
 
