@@ -120,7 +120,7 @@ productContainers.forEach((item, i) => {
 
 adminBtn.addEventListener("click", () => {
   if (loginInput.value != "" && loginInput.value === "gomytrip@gmail.com") {
-    window.location.assign("hotelSearch.html");
+    window.location.assign("../Admin/Admin.html");
   }
 });
 

@@ -120,10 +120,10 @@ function displayFlightData(data){
 
    let innerDiv5 = document.createElement("div")
    innerDiv5.setAttribute("class","inner5FlightDiv")
-   innerDiv5.innerHTML=`
+   innerDiv5.innerHTML = `
    <div>
-   <h2>${element.ticketPrice}</h2>
-  </div>`
+   <h2>	₹ ${element.ticketPrice}</h2>
+  </div>`;
 
 
    let button = document.createElement("button")
