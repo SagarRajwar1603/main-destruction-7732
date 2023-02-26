@@ -88,3 +88,5 @@ function goToHotelInner(id) {
     localStorage.setItem("item",JSON.stringify(localData));
     window.location.href="../hotel_inner.html"
 }
+
+
