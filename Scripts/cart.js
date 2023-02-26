@@ -68,11 +68,15 @@ function Display(data){
                         </div>
 
                         <div class="pay-btn">
-                            <button>PAY NOW</button>
+                            <button id="payNow">PAY NOW</button>
                         </div>
 
                     </div>
     `
     appenPrice.innerHTML = priceInfo;
 }
+let payNow = document.getElementById("payNow");
 
+payNow.addEventListener("click",()=>{
+    alert("Payment Done....")
+});
