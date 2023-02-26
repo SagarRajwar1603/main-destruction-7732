@@ -154,9 +154,11 @@ ul{
 
 .main_container{
     display: flex;
+
     margin-top: 30px;
     width:100%;
     gap:4px;
+
     justify-content: space-around;
 }
 
@@ -199,15 +201,18 @@ ul{
     color: #00a19c;
 }
 .fistr_part{
+
     margin: 1em 0em;
     margin: 1em 2em;
     width: 37%;
    
     padding: 0em 4em;
 
+
 }
 .fistr_part > div{
     color: #4a4a4a;
+
     gap:30px;
    
 
@@ -256,5 +261,6 @@ ul{
   .price:hover{
     background-color: #E0F7FA;
 }
+
 
 

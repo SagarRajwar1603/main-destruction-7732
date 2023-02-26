@@ -1,7 +1,7 @@
 let cardBody = document.getElementById("cardImpl");
 let TempData=[] ;
 let TempArray = [];
-let priceFilter = document.getElementById("seclect_trip");
+let priceFilter = document.getElementById("select_price");
 
 let city = localStorage.getItem("cityHotel")
 // console.log(city)
@@ -106,12 +106,15 @@ function goToHotelInner(id) {
 }
 
 
+
 // console.log(priceFilter)
+
 priceFilter.addEventListener("change",()=>{
     
-    console.log("changing");
     if(priceFilter.value=="high")
     {
+    console.log("changing");
+
     let city = localStorage.getItem("cityHotel")
     let sortedData = TempData.sort((a,b)=>{
         if(Number(a.price)>Number(b.price))
@@ -129,6 +132,8 @@ priceFilter.addEventListener("change",()=>{
     }
     else if(priceFilter.value=="low")
     {
+    console.log("changing");
+
     let city = localStorage.getItem("cityHotel")
     let sortedData = TempData.sort((a,b)=>{
         if(Number(a.price)>Number(b.price))
