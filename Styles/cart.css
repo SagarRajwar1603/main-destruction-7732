@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: sans-serif;
 }
 /* Flight Section */
 
@@ -160,10 +161,11 @@
 
   position: absolute;
   left: 75%;
-  bottom: 16%;
+  bottom: 2%;
   background-color: white;
   padding: 10px;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
   border-radius: 10px;
 }
 .price-section > div > h5 {
@@ -190,4 +192,23 @@
   align-items: center;
   justify-content: space-between;
   padding: 10px;
+}
+.pay-btn {
+  display: block;
+  margin: auto;
+}
+.pay-btn > button {
+  background: rgb(61, 184, 209);
+  background: linear-gradient(
+    90deg,
+    rgba(61, 184, 209, 1) 29%,
+    rgba(67, 138, 242, 1) 63%
+  );
+  border: none;
+  color: white;
+  padding: 8px;
+  width: 100%;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
