@@ -140,7 +140,7 @@ ul{
 
 .main_container{
     display: flex;
-   
+    width: 100%;
     justify-content: space-around;
 }
 
@@ -184,9 +184,11 @@ ul{
     color: #00a19c;
 }
 .fistr_part{
-    margin: 1em 0em;
-
+    width: 30%;
 }
 .fistr_part >div{
     color: #4a4a4a;
+}
+#cardImpl{
+    width: 70%;
 }
