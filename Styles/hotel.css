@@ -256,3 +256,6 @@ ul {
 .price:hover {
   background-color: #e0f7fa;
 }
+.src_btn{
+  cursor: pointer;
+}

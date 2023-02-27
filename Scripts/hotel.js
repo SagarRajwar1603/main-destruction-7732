@@ -16,8 +16,9 @@ fetch(`https://hotel-api-test.onrender.com/hotel`)
     console.log(err)
 })
 
-let select = document.getElementById("sel");
-select.addEventListener("change",()=>{
+let searchBtn = document.querySelector(".src_btn");
+let select = document.getElementById("sel")
+searchBtn.addEventListener("click",()=>{
     if(select.value=="goa")
     {
         localStorage.setItem("cityHotel",select.value);
