@@ -102,6 +102,24 @@ body {
   border: none;
   cursor: pointer;
 }
+.logout-btn {
+  background: rgb(61, 184, 209);
+  background: linear-gradient(
+    90deg,
+    rgba(61, 184, 209, 1) 29%,
+    rgba(67, 138, 242, 1) 63%
+  );
+  padding: 14px;
+  color: white;
+  font-size: 11px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
 .category-card > div:nth-child(5) {
   margin-left: 3px;
 }
