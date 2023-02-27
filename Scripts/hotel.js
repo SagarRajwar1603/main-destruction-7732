@@ -61,10 +61,18 @@ function filterByCity(data,city)
 
 function Display(data,city)
 {
+    // console.log(data)
+    
     cardBody.innerHTML = "";
     let hOne = `<h1>Showing Properties in ${city}</h1>`
     let cardItems = data.map((item)=>{
         // console.log(item)
+        let stars = '';
+        for(let i=0;i<Number(item.star);i++)
+        {
+         stars += `<i class="fa-solid fa-star"></i>`
+        }
+        console.log(stars)
         return `
         <div class="second_part" onClick="goToHotelInner(${item.id})"> 
             <div>
@@ -75,7 +83,13 @@ function Display(data,city)
                <p class="innerPtags">Free Cancelation till 4hr before Check-In</p>
                <p class="innerPtags">BreakFast Included</p>
                <p class="innerPtags">Couple Friendly</p>
+               ${stars}
+               
+               
+
            </div>
+         
+          
          <div class="price">
             <p>Per Night Price :</p>
             <p>+ ₹ ${item.price} taxes & fees</p>
