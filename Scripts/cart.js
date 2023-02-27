@@ -68,11 +68,26 @@ function Display(data){
                         </div>
 
                         <div class="pay-btn">
-                            <button>PAY NOW</button>
+                            <button id="payBtn">PAY NOW</button>
                         </div>
 
                     </div>
     `
     appenPrice.innerHTML = priceInfo;
 }
+let payBtn = document.getElementById("payBtn").addEventListener("click",()=>{
+    let otp = Math.floor(Math.random()*8999)+1000;
+    alert(`Your OTP is ${otp}`);
+    let x = prompt("Enter your OTP:");
+    if(x==otp)
+    {
+        alert("Payment Successful");
+
+    }
+    else
+    {
+        alert("Invalid Otp")
+    }
+
+})
 

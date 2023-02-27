@@ -3,7 +3,7 @@ let registerForm = document.getElementById("register");
 
 let loginPopUpBtn = document.getElementById("login-btn");
 let popUp = document.getElementById("form-section");
-
+let logoutBtn = document.getElementById("logoutBtn");
 let clickBody = document.querySelector("body");
 
 let loginBtn = document.getElementById("logBtn");
@@ -68,6 +68,10 @@ loginBtn.addEventListener("click", () => {
   registerBtn.style.border = "2px solid black";
 });
 
+logoutBtn.addEventListener("click",()=>{
+  localStorage.removeItem("user");
+  window.location.href = "index.html"
+})
 // popup login button function
 
 loginPopUpBtn.addEventListener("click", () => {

@@ -2,7 +2,7 @@ let cardBody = document.getElementById("cardImpl");
 let TempData=[] ;
 let TempArray = [];
 let priceFilter = document.getElementById("select_price");
-
+let filteredCity = [];
 let city = localStorage.getItem("cityHotel")
 // console.log(city)
 fetch(`https://hotel-api-test.onrender.com/hotel`)
@@ -10,7 +10,8 @@ fetch(`https://hotel-api-test.onrender.com/hotel`)
 .then((data)=>{
     TempData = [...data];
     // console.log(TempData)
-    filterByCity(data,city);
+    let newData =filterByCity(data,city);
+    Display(newData,city)
 })
 .catch((err)=>{
     console.log(err)
@@ -22,22 +23,26 @@ searchBtn.addEventListener("click",()=>{
     if(select.value=="goa")
     {
         localStorage.setItem("cityHotel",select.value);
-        filterByCity(TempData,"goa")
+        let data = filterByCity(TempData,"goa");
+        Display(data,select.value);
     }
     else if(select.value=="mumbai")
     {
         localStorage.setItem("cityHotel",select.value);
-        filterByCity(TempData,"mumbai")
+        let data = filterByCity(TempData,"mumbai");
+        Display(data,select.value);
     }
     else if(select.value=="guwahati")
     {
         localStorage.setItem("cityHotel",select.value);
-        filterByCity(TempData,"guwahati")
+        let data = filterByCity(TempData,"guwahati");
+        Display(data,select.value);
     }
     else if(select.value=="delhi")
     {
         localStorage.setItem("cityHotel",select.value);
-        filterByCity(TempData,"delhi")
+        let data = filterByCity(TempData,"delhi");
+        Display(data,select.value);
     }
 })
 
@@ -53,7 +58,7 @@ function filterByCity(data,city)
             return false;
         }
     })
-    Display(filteredData,city);
+    return filteredData;
     // console.log(filteredData)
 
 }
@@ -61,10 +66,18 @@ function filterByCity(data,city)
 
 function Display(data,city)
 {
+    // console.log(data)
+    
     cardBody.innerHTML = "";
     let hOne = `<h1>Showing Properties in ${city}</h1>`
     let cardItems = data.map((item)=>{
         // console.log(item)
+        let stars = '';
+        for(let i=0;i<Number(item.star);i++)
+        {
+         stars += `<i class="fa-solid fa-star"></i>`
+        }
+        // console.log(stars)
         return `
         <div class="second_part" onClick="goToHotelInner(${item.id})"> 
             <div>
@@ -75,7 +88,13 @@ function Display(data,city)
                <p class="innerPtags">Free Cancelation till 4hr before Check-In</p>
                <p class="innerPtags">BreakFast Included</p>
                <p class="innerPtags">Couple Friendly</p>
+               ${stars}
+               
+               
+
            </div>
+         
+          
          <div class="price">
             <p>Per Night Price :</p>
             <p>+ ₹ ${item.price} taxes & fees</p>
@@ -117,7 +136,10 @@ priceFilter.addEventListener("change",()=>{
     console.log("changing");
 
     let city = localStorage.getItem("cityHotel")
-    let sortedData = TempData.sort((a,b)=>{
+    
+    let cityWiseData = filterByCity(TempData,city);
+    console.log(cityWiseData)
+    let sortedData = cityWiseData.sort((a,b)=>{
         if(Number(a.price)>Number(b.price))
         {
             return 1;
@@ -128,7 +150,7 @@ priceFilter.addEventListener("change",()=>{
         }
         return 0;
     });
-    // console.log(sortedData)
+    console.log(sortedData)
     Display(sortedData,city);
     }
     else if(priceFilter.value=="low")
@@ -136,12 +158,33 @@ priceFilter.addEventListener("change",()=>{
     console.log("changing");
 
     let city = localStorage.getItem("cityHotel")
-    let sortedData = TempData.sort((a,b)=>{
+    let cityWiseData = filterByCity(TempData,city);
+    console.log(cityWiseData)
+    let sortedData = cityWiseData.sort((a,b)=>{
         if(Number(a.price)>Number(b.price))
         {
             return -1;
         }
         else if(Number(a.price)<Number(b.price))
+        {
+            return 1
+        }
+        return 0;
+    });
+    // console.log(sortedData)
+    Display(sortedData,city);
+    }
+    else if(priceFilter.value=="ratingHigh")
+    {
+        let city = localStorage.getItem("cityHotel")
+    let cityWiseData = filterByCity(TempData,city);
+    console.log(cityWiseData)
+    let sortedData = cityWiseData.sort((a,b)=>{
+        if(Number(a.star)>Number(b.star))
+        {
+            return -1;
+        }
+        else if(Number(a.star)<Number(b.star))
         {
             return 1
         }
